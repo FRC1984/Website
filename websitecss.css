@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Khula', sans-serif;
+    font-size: 12pt;
+    color: saddlebrown;
+}
+
+.navheader {
+    background-color: ;
+    height: 120px;
+    background-color: saddlebrown;
+}
+.logo {
+    height: 120px;
+    float: left;
+}
+
+.first {
+    width: 120px;
+    float: right;
+}
+
+.nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: saddlebrown;
+}
+.nav li {
+    float: left;
+    font-size: 14pt;
+}
+.nav li a {
+    display: block;
+    color: #faebc5;
+    text-align: center;
+    padding: 12px 4px 0px 4px;
+    margin: 0px 12px 0px 12px;
+    text-decoration: none;
+    position: relative;
+    font-size: 14pt;
+}
+.nav li a:hover {
+    color: #ffa700;
+    border-bottom: 3px solid #ffa700;
+}
+
+li {
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+body {
+    background-color:#fffcd4;
+}
+
+#home .picture{
+    width: 510px;
+    border: 5px solid saddlebrown;
+    border-radius: 5px;
+    display: block;
+    float: right;
+}
+#home .clear {
+    clear:both;
+}
+#home .picturetext {
+    width: 460px;
+    display: block;
+}
+
+#team .picture {
+    width: 100%;
+}
+#team .members {
+    display: inline-block;
+    padding: 10px 20px;
+    vertical-align: top;
+}
+#team h2 {
+    font-size: 14pt;
+}
+#team h3 {
+    font-size: 11pt;
+}
+#team .toaboutfirst {
+    color: #ffa700;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#schedule iframe {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 600px;
+}
+
+#parents .link {
+    text-decoration: none;
+    font-size: 12pt;
+    color: #ffa700;
+    padding: 3px 6px 0px 6px;
+    background-color: #fffcd4;
+    border-radius: 3px;
+    border: 2px solid #ffa700;
+    font-weight: 600;
+}
+#parents .link:hover {
+    background-color: #ffa700;
+    color: #fffcd4;
+}
+
+
+#contact .person {
+    display: inline-block;
+    margin: 0px 25px 60px 0px;
+    line-height: 1.6;
+}
+#contact .person h1 {
+    font-size: 14pt;
+}
+#contact .person h2 {
+    font-size: 12pt;
+}
+#contact p {
+    font-size: 10pt;
+    font-weight: 600;
+}
+#contact .location {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+#contact .location h2 {
+    font-size: 14pt;
+}
+#contact .location h3 {
+    font-size: 12pt;
+}
+#map {
+    height: 300px;
+    width: 49%;
+    display: inline-block;
+    margin-top: 40px;
+}
+#contact .maplink {
+    margin-right: 20%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.l-wrap {
+  max-width: 4000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 20px;
+}
+    
+.main-grid .l-6 {
+    width: 75%;/*6/8*/
+    padding: 12px;
+    float: left;
+  }
+
+
+.main-grid .l-sidebar {
+    width: 25%; /*2/8*/
+    padding: 12px;
+    float: right;
+  }
+
+.grid-inner {
+    display: block;
+    background: #fffcd4;
+    border: 2px solid saddlebrown;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.sidebarheading h1 {
+    color: #ffa700;
+    font-size: 20pt;
+    text-align: center;
+    background-color: #fffcd4;
+}
+.heading h1 {
+    color: #ffa700;
+    font-size: 20pt;
+    background-color: #fffcd4;
+    margin-bottom: 20px;
+}
+.sponsorlogos img {
+    width: 80%;
+    margin: 10px 10%
+}
+.sponsorlogos h1 {
+    font-size: 24pt;
+    text-align: center;
+    margin-top: 20px;
+}
+#parents .link {
+    text-decoration: none;
+    font-size: 12pt;
+    color: #ffa700;
+    padding: 3px 6px 0px 6px;
+    background-color: #fffcd4;
+    border-radius: 3px;
+    border: 2px solid #ffa700;
+    font-weight: 600;
+}
+#parents .link:hover {
+    background-color: #ffa700;
+    color: #fffcd4;
+}
+.footer {
+    background-color: saddlebrown;
+    width: 100%;
+}
+
+.footer {
+    padding: 20px;
+}
+.footer li a {
+    color: #fffcd4;
+    text-decoration: none;
+    font-size: 10pt;
+    font-weight: 600;
+}
+.footer li a:hover {
+    color: #ffa700;
+}
+.footer li {
+    margin: 0px;
+    line-height: 12pt;
+}
+.footer ul {
+    list-style-type: none;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.l-wrap {
+  flex: 1 0 auto;
+  padding: 20px;
+}
+
+
+#aboutfirst h2 {
+    font-size: 16pt;
+    display: inline;
+    line-height: 30pt;
+}
+
+#robotcamp .kids {
+    width: 90%;
+    margin: 0px 5%;
+}
+img {
+     border-radius: 4px;
+}

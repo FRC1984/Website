@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="websitecss.css" type="text/css">
+</head>
+
+ <script src="header.js"></script>
+
+<body id="contact">
+            
+<div class="l-wrap">
+  <div class="main-grid">
+      
+      <script src="sidebar.js"></script>
+      
+    <div class="grid-item l-6">
+        <div class="grid-inner">
+            <div class="heading">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="person">
+                <h1>Daniel Plotas</h1>
+                <h2>Head Coach</h2>
+                <p>ddplotas@gmail.com</p>
+            </div>
+            <div class="person">
+                <h1>Paul Plotas</h1>
+                <h2>Mentor<h2>
+                <p>paplotas@hotmail.com</p>
+            </div>
+            <div class="person">
+                <h1>Ted Smith</h1>
+                <h2>Mentor<h2>
+                <p>ted_v_smith@yahoo.com</p>
+            </div>
+                    <div class="clear"></div>
+            <div class="location">
+                <div class="heading">
+                    <h1>We are located:</h1>
+                </div>
+                <h2>Shawnee Mission South high school</h2>
+                <h3>5800 W 107th St, Overland Park, KS<br>Room 134 (or through the garage in the back parking lot)</h3>
+                <p>Room 134 phone number: (###) ###-####</p>
+            </div>
+            
+<div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 38.937335, lng: -94.653592};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJ2hVfCzb9F0srMk_GGoAxTW_uilEqfvg&callback=initMap">
+    </script>
+    <a href="https://www.google.com/maps/place/Shawnee+Mission+South+High+School/@38.9373596,-94.6557805,17z/data=!3m1!4b1!4m5!3m4!1s0x87c0ebd2c96884a5:0x311d4df2c807390f!8m2!3d38.9373596!4d-94.6535918" target="blank" class="maplink">View Larger Map</a>
+            
+        </div>
+    </div>
+  </div>
+</div>
+                    
+<script src="footer.js"></script>
+                    
+</body>
+</html>
