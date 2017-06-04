@@ -127,25 +127,16 @@ body {
     font-size: 10pt;
     font-weight: 600;
 }
-#contact .location {
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-}
 #contact .location h2 {
     font-size: 14pt;
 }
 #contact .location h3 {
     font-size: 12pt;
 }
-#map {
+#contact iframe {
     height: 300px;
-    width: 49%;
-    display: inline-block;
+    width: 412.547px;
     margin-top: 40px;
-}
-#contact .maplink {
-    margin-right: 20%;
 }
 
 *,
