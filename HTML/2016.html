@@ -1,103 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <link rel="stylesheet" href="/CSS/media.css" type="text/css">
-    </head>
+	<base href="../">
+
+	<head>
+		<link rel="stylesheet" href="CSS/media.css" type="text/css">
+	</head>
     
-<body id="media">
+	<body id="media">
+
+		<script src="JS/header.js"></script>
+
+		<div class="l-wrap">
+			<div class="main-grid">
+
+				<script src="/JS/sidebar.js"></script>
+
+				<div class="grid-item l-6">
+					<div class="grid-inner">
+						<div class="heading">
+							<h1>Media</h1>
+						</div>
+						
+							<a href="2017.html">2017</a>
+							<a href="2016.html" style="color: #ffa700">2016</a>
+							<a href="2015.html">2015</a>
+							<a href="2014.html">2014</a>
+							<a href="2013.html">2013</a>
+							<a href="2012.html">2012</a>
+
+							<div class="row">
+								<div class="timeplace">Arkansas</div>
+							
+								<img src="/Media/2016/1.JPG" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+								<img src="/Media/2016/2.JPG" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+								<img src="/Media/2016/3.JPG" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+								<img src="/Media/2016/4.JPG" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+								<img src="/Media/2016/5.JPG" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+								<img src="/Media/2016/6.JPG" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+								<img src="/Media/2016/7.JPG" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+								<img src="/Media/2016/8.JPG" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+							</div>
+							<div class="clear"></div>
+							<div id="idModal" class="modal">
+								<span class="close cursor" onclick="closeModal()">&times;</span>
+								<div class="modal-content">
+									
+									<div class="slides">
+										<img src="/Media/2016/1.JPG">
+									</div>
+	
+									<div class="slides">
+										<img src="/Media/2016/2.JPG">
+									</div>
+
+									<div class="slides">
+										<img src="/Media/2016/3.JPG">
+									</div>
     
-<script src="/JS/header.js"></script>
-    
-<div class="l-wrap">
-  <div class="main-grid">
-      
-    <script src="/JS/sidebar.js"></script>
-      
-    <div class="grid-item l-6">
-        <div class="grid-inner">
-            <div class="heading">
-                <h1>Media</h1>
-            </div>
-            <a href="2017.html">2017</a>
-            <a href="2016.html" style="color: #ffa700">2016</a>
-            <a href="2015.html">2015</a>
-            <a href="2014.html">2014</a>
-            <a href="2013.html">2013</a>
-            <a href="2012.html">2012</a>
+									<div class="slides">
+										<img src="/Media/2016/4.JPG">
+									</div>
 
-<div class="row">
-    <div class="timeplace">Arkansas</div>
+									<div class="slides">
+										<img src="/Media/2016/5.JPG">
+									</div>
+	
+									<div class="slides">
+										<img src="/Media/2016/6.JPG">
+									</div>
+	
+									<div class="slides">
+										<img src="/Media/2016/7.JPG">
+									</div>
+   	 
+									<div class="slides">
+										<img src="/Media/2016/8.JPG">
+									</div>
+	      
+									<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+									<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	
+								</div>
+							</div>
+							<script src="/JS/slides.js"></script>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <img src="/Media/2016/1.JPG" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+		<script src="/JS/footer.js"></script>
 
-    <img src="/Media/2016/2.JPG" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-
-    <img src="/Media/2016/3.JPG" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-
-    <img src="/Media/2016/4.JPG" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-    
-    <img src="/Media/2016/5.JPG" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
-
-    <img src="/Media/2016/6.JPG" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
-
-    <img src="/Media/2016/7.JPG" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
-
-    <img src="/Media/2016/8.JPG" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
-
-</div>
-<div class="clear"></div>
-
-<div id="idModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
-    <div class="slides">
-      <img src="/Media/2016/1.JPG">
-    </div>
-
-    <div class="slides">
-      <img src="/Media/2016/2.JPG">
-    </div>
-
-    <div class="slides">
-      <img src="/Media/2016/3.JPG">
-    </div>
-    
-    <div class="slides">
-      <img src="/Media/2016/4.JPG">
-    </div>
-      
-    <div class="slides">
-      <img src="/Media/2016/5.JPG">
-    </div>
-
-    <div class="slides">
-      <img src="/Media/2016/6.JPG">
-    </div>
-
-    <div class="slides">
-      <img src="/Media/2016/7.JPG">
-    </div>
-    
-    <div class="slides">
-      <img src="/Media/2016/8.JPG">
-    </div>
-      
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-  </div>
-</div>
-
-<script src="/JS/slides.js"></script>
-
-        </div>
-    </div>
-      
-  </div>
-</div>
-    
-            <script src="/JS/footer.js"></script>
-    
-</body>
+	</body>
 </html>
