@@ -1,113 +1,115 @@
 .row img {
-    width: 23%;
-    margin: 1%;
-    float: left;
-    display: inline-block;
+	width: 23%;
+	margin: 1%;
+	float: left;
+	display: inline-block;
 }
 
 .clear {
-    clear: both;
+	clear: both;
 }
 
 /* The Modal (background) */
 .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.8);
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Modal Content */
 .modal-content {
-  position: relative;
-  background-color: rgba(0, 0, 0, 0);
-  margin: auto;
-  padding: 0;
-  height: 100%;
-  width: 90%;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0);
+	margin: auto;
+	padding: 0;
+	height: 100%;
+	width: 90%;
 }
 
 /* The Close Button */
 .close {
-  color: red;
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
+	color: red;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 35px;
+	font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: red;
-  text-decoration: none;
-  cursor: pointer;
+	color: red;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 .slides {
-  display: none;
+	display: none;
 
 }
 
 .cursor {
-  cursor: pointer
+	cursor: pointer
 }
 
 /* Next & previous buttons */
 .prev,
 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 9px 18px 9px 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 6px;
-  user-select: none;
-  -webkit-user-select: none;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 9px 18px 9px 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 6px;
+	user-select: none;
+	-webkit-user-select: none;
 }
 
 /* Position next and previous buttons */
 .next {
-  right: -5%;
-  border-radius: 6px;
+	right: -5%;
+	border-radius: 6px;
 }
+
 .prev {
-    left: -5%;
+	left: -5%;
 }
 
 .prev:hover,
 .next:hover {
-  background-color: black;
+	background-color: black;
 }
 
-
 .modal-content img {
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
 }
 
 .active,
 .demo:hover {
-  opacity: 1;
+	opacity: 1;
 }
+
 a {
-    font-weight: 600;
-    margin: 0 20px 10px 0;
+	font-weight: 600;
+	margin: 0 20px 10px 0;
 }
+
 .timeplace {
-    margin: 10px 0;
-    font-weight: 600;
+	margin: 10px 0;
+	font-weight: 600;
 }
