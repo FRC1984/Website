@@ -66,7 +66,7 @@ body {
 	float: right;
 }
 
-#home .clear {
+.clear {
 	clear:both;
 }
 
@@ -278,11 +278,171 @@ body {
 	line-height: 30pt;
 }
 
-#robotcamp .kids {
-	width: 90%;
-	margin: 0px 5%;
-}
-
 img {
 	border-radius: 4px;
 }
+
+#robotcamp .slideshow {
+    position: relative;
+    width: 100%;
+    padding-top: 66%;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    border-radius: 4px;
+    color: red;
+}
+#robotcamp .slides img {
+    height: 90%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#robotcamp .prev,
+#robotcamp .next {
+	cursor: pointer;
+	position: absolute;
+	top: 45%;
+    transform: translateY(-50%);
+	padding: 6px 13.617px 4px 11.617px;
+	color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 4px;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+#robotcamp .next {
+    right: 0;
+    padding: 6px 11.617px 4px 13.617px;
+}
+
+#robotcamp .prev:hover,
+#robotcamp .next:hover {
+	background-color: black;
+}
+
+#media .row img {
+	width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+#media .container {
+    position: relative;
+    width: 23%;
+    margin: 1%;
+    padding-top: 17.25%;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    border-radius: 4px;
+}
+
+/* The Modal (background) */
+#media .modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Modal Content */
+#media .modal-content {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0);
+	margin: auto;
+	padding: 0;
+	height: 100%;
+	width: 90%;
+}
+
+/* The Close Button */
+#media .close {
+	color: silver;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#media .close:hover,
+#media .close:focus {
+	color: red;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#media .slides {
+	display: none;
+
+}
+
+.cursor {
+	cursor: pointer
+}
+
+/* Next & previous buttons */
+#media .prev,
+#media .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 6px 13.617px 4px 11.617px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 6px;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+/* Position next and previous buttons */
+#media .next {
+	right: -5%;
+    padding: 6px 11.617px 4px 13.617px;
+}
+
+#media .prev {
+	left: -5%;
+}
+
+#media .prev:hover,
+#media .next:hover {
+	background-color: black;
+}
+
+#media .modal-content img {
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#media a {
+	font-weight: 600;
+	margin: 0 20px 10px 0;
+}
+
+#media .timeplace {
+	margin: 10px 0;
+	font-weight: 600;
+}
+
