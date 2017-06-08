@@ -6,6 +6,11 @@
 	color: saddlebrown;
 }
 
+.goldline {
+    background-color: #ffa700;
+    height: 10px;
+}
+
 .navheader {
 	background-color: ;
 	height: 120px;
@@ -125,6 +130,7 @@ body {
 	display: inline-block;
 	margin: 0px 25px 60px 0px;
 	line-height: 1.6;
+    font-weight: 600;
 }
 
 #contact .person h1 {
@@ -436,7 +442,7 @@ img {
 	transform: translateX(-50%);
 }
 
-#media a {
+#media .year {
 	font-weight: 600;
 	margin: 0 20px 10px 0;
 }

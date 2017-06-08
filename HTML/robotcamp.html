@@ -3,12 +3,14 @@
 	<base href="../">
 
 	<body id="robotcamp">
-		
+        
+		<div id="header"></div>
 		<script src="JS/header.js"></script>
 		
 		<div class="l-wrap">
 			<div class="main-grid">
-
+                
+                <div id="sidebar"></div>
 				<script src="JS/sidebar.js"></script>
  
 				<div class="grid-item l-6">
@@ -21,11 +23,11 @@
                             
                         <script>
                         for (i = 1; i < 8; i++) {
-                            document.write('<div class="slides"><img src="Media/RobotCamp/kid'+i+'.JPG" class="rotate"></div>'); }
+                            document.write('<div class="slides"><img src="Media/RobotCamp/kid'+i+'.JPG"></div>'); }
                         </script>
                             
                         <a class="prev" onclick="plusSlides(-1);">&#10094;</a>
-				        <a class="next" onclick="plusSlides(1);">&#10095;</a>
+			            <a class="next" onclick="plusSlides(1);">&#10095;</a>
                             
                         </div>
                         
@@ -55,11 +57,14 @@
 						Parent Phone Number:<br>
 						Parent Email:<br><br>
 						Please call Ted Smith with any questions @ 913-220-6584.
+                        
+                        
+                        
 					</div>
 				</div>
 			</div>
 		</div>
-
+        <div id="footer"></div>
 		<script src="JS/footer.js"></script>
 
 	</body> 
