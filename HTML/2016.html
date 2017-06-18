@@ -2,7 +2,8 @@
 <html>
 	<head>
 		<base href="..">
-		<link rel="stylesheet" href="CSS/website.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Khula:400,600" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/websitecss.css" type="text/css">
 	</head>
     
 	<body id="media">
@@ -29,41 +30,27 @@
 							<a href="2013.html" class="year">2013</a>
 							<a href="2012.html" class="year">2012</a>
 
-							<div class="row">
-								<div class="timeplace">Arkansas</div>
+							<div id="row">
                                 
                                 
-                            <div class="container"> 
-                            <img src="Media/2016/1.JPG" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" style="position: absolute">
-                            </div>
-                                
-                            <div class="container"> 
-                            <img src="Media/2016/2.JPG" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" style="position: absolute">
-                            </div>
-                                
-                            <div class="container"> 
-                            <img src="Media/2016/3.JPG" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" style="position: absolute">
-                            </div>
-                                
-                            <div class="container"> 
-                            <img src="Media/2016/4.JPG" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" style="position: absolute">
-                            </div>
-                                
-                            <div class="container"> 
-                            <img src="Media/2016/5.JPG" onclick="openModal();currentSlide(5)" class="hover-shadow cursor" style="position: absolute">
-                            </div>
-                                
-                            <div class="container"> 
-                            <img src="Media/2016/6.JPG" onclick="openModal();currentSlide(6)" class="hover-shadow cursor" style="position: absolute">
-                            </div>
-                                
-                            <div class="container"> 
-                            <img src="Media/2016/7.JPG" onclick="openModal();currentSlide(7)" class="hover-shadow cursor" style="position: absolute">
-                            </div>
-                                
-                            <div class="container"> 
-                            <img src="Media/2016/8.JPG" onclick="openModal();currentSlide(8)" class="hover-shadow cursor" style="position: absolute">
-                            </div>
+                            <script>
+
+                                var images, videos; 
+                                images = '';
+                                videos = '';
+
+                                for (i = 1; i < 80; i++) {
+                                    images += '<div class="container"><img src="Media/2016/images/2016image_' + i + '.JPG" onclick="openModal();currentSlide(' + i + ')" class="hover-shadow cursor"></div>';
+                                    }
+
+                                for (i = 1; i < 29; i++) {
+                                    videos += '<div class="container"><video controls><source src="Media/2016/videos/2016video_' + i + '.mp4" type="video/mp4" onclick="openModal();currentSlide(' + i + ')" class="hover-shadow cursor"></video></div>';
+                                    }
+
+                                document.getElementById("row").innerHTML= images + videos;
+
+                            </script>
+
 
 							</div>
 							<div class="clear"></div>

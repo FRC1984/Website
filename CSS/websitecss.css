@@ -63,21 +63,8 @@ body {
 	background-color:#fffcd4;
 }
 
-#home .picture{
-	width: 510px;
-	border: 5px solid saddlebrown;
-	border-radius: 5px;
-	display: block;
-	float: right;
-}
-
 .clear {
 	clear:both;
-}
-
-#home .picturetext {
-	width: 460px;
-	display: block;
 }
 
 #team .picture {
@@ -110,22 +97,6 @@ body {
 	width: 90%;
 	height: 600px;
 }
-
-#parents .link {
-	text-decoration: none;
-	font-size: 12pt;
-	color: #ffa700;
-	padding: 3px 6px 0px 6px;
-	background-color: #fffcd4;
-	border-radius: 3px;
-	border: 2px solid #ffa700;
-	font-weight: 600;
-}
-#parents .link:hover {
-	background-color: #ffa700;
-	color: #fffcd4;
-}
-
 #contact .person {
 	display: inline-block;
 	margin: 0px 25px 60px 0px;
@@ -178,6 +149,11 @@ body {
 	padding: 12px;
 	float: left;
 }
+.main-grid .l-3 {
+    width: 25%; /*2/8*/
+    padding: 12px;
+    float: left;
+}
 
 .main-grid .l-sidebar {
 	width: 25%; /*2/8*/
@@ -216,22 +192,6 @@ body {
 	font-size: 24pt;
 	text-align: center;
 	margin-top: 20px;
-}
-
-#parents .link {
-	text-decoration: none;
-	font-size: 12pt;
-	color: #ffa700;
-	padding: 3px 6px 0px 6px;
-	background-color: #fffcd4;
-	border-radius: 3px;
-	border: 2px solid #ffa700;
-	font-weight: 600;
-}
-
-#parents .link:hover {
-	background-color: #ffa700;
-	color: #fffcd4;
 }
 
 .footer {
@@ -334,12 +294,21 @@ img {
 	background-color: black;
 }
 
-#media .row img {
-	width: 100%;
+#media #row img {
+    width: 100%;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+    position: absolute;
+}
+#media #row video {
+	height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
 }
 #media .container {
     position: relative;
@@ -452,3 +421,59 @@ img {
 	font-weight: 600;
 }
 
+#history .game img {
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+#history .game p {
+    width: 60%;
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+    font-size: 11pt;
+}
+
+#home .homeimage {
+    width: 100%;
+}
+#home p {
+    text-align: center;
+    font-size: 10pt;
+    line-height: 1.4;
+    padding: 10px 0 45px 0;
+}
+#home .heading h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.link {
+	text-decoration: none;
+	font-size: 12pt;
+	color: #ffa700;
+	padding: 3px 6px 0px 6px;
+	background-color: #fffcd4;
+	border-radius: 3px;
+	border: 2px solid #ffa700;
+	font-weight: 600;
+    display: inline-block;
+    text-align: center;
+}
+#home .link {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+.link:hover {
+	background-color: #ffa700;
+	color: #fffcd4;
+}
+#home .grid-inner {
+   position: relative;
+
+}
+#awards .award {
+    width: 85%;
+}
