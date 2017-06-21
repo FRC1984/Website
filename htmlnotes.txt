@@ -1,0 +1,134 @@
+These are some nice HTML notes
+-----------------------------------------------------------------------
+<!--****--> this is where comments go.
+<!doctype html> Opening
+<html> </html> Open up the document
+<title></title>This is the part that is in the tab
+<head></head> This is the header
+<body></body> This creates body paragraphs
+<h1></h1> This creates headings, and the number can be changed for size
+<p></p> This creates paragraphs.
+<strong></strong> This bolds things.
+<em></em> This italicizes things.
+<hr /> this creates a horizontal split line.
+<a></a>anchor. This is used for making links.
+href is the tag used for linking to a link
+<a href="http://linkgoeshere.com">text goes here</a> full link setup
+<a name="name of jump point"></a> This creates a jump point to move down the page with a click
+<a href="#NAME OF JUMP POINT">Text goes here.</a> This allows you to make jump link
+<a href="mailto:EMAILHERE">text here</a> This allows for opening emails.
+<a href="link"><img src="pathtoimage.jpg"> this makes an image a link
+<img src="image path.jpg"> This allows you to add images to your site.
+<img src="image path.jpg" height="SIZE" width="size" /> this changes sizpppppes
+<table></table> this creates the outline for a table
+<table border="size" width="size"></table>Sets the width of a column
+<tr></tr> this creates table rows.
+<td></td> this creates columns in the table.
+<th></th> This creates table headers.
+<th colspan="2"></th> This spans across 2 columns
+<table cellpadding="size"></table> this pads the text in the cells.
+<table cellspacing="size"></table> space between the individual cells.
+<ul></ul>This creates an unordered list, a bulleted list.
+<ol></ol> This creates an ordered list, with numbering.
+<li></li> This creates a list item, this should be inside <ol></ol> or <ul></ul>
+<style type="text/css"></style>
+
+These are some nice CSS Notes
+-----------------------------------------------------------------------
+<style type="text/css"></style>
+      Inside that ^| p{} this changes types for paragraphs
+      p{color:insert;font-family:font;}
+      background-image:url(pathtopicture.png);
+      background-repeat:no-repeat;
+      background-position:50% 50px;
+      padding-bottom
+      padding-left
+      padding-right	
+      padding-top
+      border-top/bottom/left/right-color/width/style:XX(px);
+      margin:(size)px;
+      border: thickness type color;
+      	      STATES
+	      a:link the original linkn
+	      a:visited when you have visited
+	      a:hover when you are hovering
+	      a:active When you are clicking
+	      STYLING FOR TABLES AND NESTING
+	      	      the styles will follow downwards.
+
+This is the proper method of moving an object with CSS.====== div{border: 2px solid red;position:absolute;width:300px;top:40px;left:35px;}
+
+CLASSES
+<style type="text/css">
+.redtext{color:red;}
+.grntext{color:green;}
+</style>
+USAGE
+<p class="redtext">TEXTHERE</p>
+
+DIV
+Use # for ID's
+You apply ID's to Divs
+Using ID's to differentiate divs
+
+This goes in the style/css section
+ #divvy1{border: 1px solid red;position:absolute;top:15px;left:25px;}
+ #divvy2{border: 1px solid green;position:absolute;top:65px;left:5px;
+
+ <div id="divvy1">Divvy1</div>
+ <div id="divvy2">Divvy2</div>
+
+Children
+whenever P > A === p is the parent of all children A, all link tags inside the paragraps will be styled.
+
+
+Sudo Elements
+This is inside the style/css
+ p:first-letter{font-weight:bold;font-size:30px;color:green;}
+	this gives this style to the first letter of each paragraph.
+
+
+External StyleSheets
+ <link rel="stylesheet" type="text/css" href="Sheetname.css"/>
+       Stylesheet Overrides-Cascading
+            Styling obeys the most recent rule, it will first follow the styling formatting based on the heirarchy. Then, if they are swapped it will change the CSS.Make sure to put the the stylesheet on top. The styletags should never be on top.
+
+Absolute Positioning
+	 This is when you force every position yourself pixel wise.
+#apples {border: 2px solid red;position: absolute; width:150px; height:175px;top:40px;left:115px;}
+ #blueberry {border: 2px solid blue;position: absolute; width:150px; height:175px;top:30px;left:15px;}
+
+Relative Positioning
+	 This is when it instead of moving from the top left corner, it moves it from where the origin would be normally. Moves from normal location on the page. Not from the upper left hand corner
+
+Fixed Positioning
+      This position stays fixed on the webpage. It does not move with the scrolling. It does not go away. Its pretty dumb.
+
+Auto settings the maximum width and height for images
+     When setting an image's style and css, to set it to auto limit do
+     	  img{max-height:XXpx;max-width:XXpx;}
+
+Forms, Also known as collecting information from the user
+<form></form>This is the framework for a form.
+Textbox UsageUsername: <input type="text" name="username" size="10px" maxlength="5" value="enter username here"/> this sets the input type, the name, the textbox size, and the default value of the text box.
+
+Radio box Usage
+Male:<input type="radio" name="gender" value="Male">
+This asks for a radio input for the gender type, and the value of male
+
+Checkbox Usage
+bacon:<input type="checkbox" name="food" /> the main difference between this and radio is the fact that this allows for multiple selections.
+
+Dropdown Lists
+	 These are the uses of <select name=activities>
+	       	       	       <option value="dog"> dog</option>
+
+Text entry areas
+<textarea name="bio" rows="10" cols="50"></textarea> This sets the name of the text area, the rows, and the columns for it.
+
+Password
+This is very similar to the text entry field, but it covers up their entered information for protection.
+
+File submission
+<input type="file" name="uploaded" />
+
