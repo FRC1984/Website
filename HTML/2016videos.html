@@ -23,40 +23,49 @@
 							<h1>Media</h1>
 						</div>
 						
-							<a href="2017.html" class="year">2017</a>
-							<a href="2016.html" class="year" style="color: #ffa700">2016</a>
-							<a href="2015.html" class="year">2015</a>
-							<a href="2014.html" class="year">2014</a>
-							<a href="2013.html" class="year">2013</a>
-							<a href="2012.html" class="year">2012</a>
+							<a href="HTML/2017.html" class="year">2017</a>
+							<a href="HTML/2016.html" class="year" style="color: #ffa700">2016</a>
+							<a href="HTML/2015.html" class="year">2015</a>
+							<a href="HTML/2014.html" class="year">2014</a>
+							<a href="HTML/2013.html" class="year">2013</a>
+							<a href="HTML/2012.html" class="year">2012</a>
+                            <br>
+                            <a href="HTML/2016pictures.html" class="year">Pictures</a>
+							<a href="HTML/2016videos.html" class="year" style="color: #ffa700">Videos</a>
 
 							<div id="row">
                                 
                                 
                             <script>
 
-                                var images, videos; 
-                                images = '';
+                                var videos; 
                                 videos = '';
 
-                                for (i = 1; i < 80; i++) {
-                                    images += '<div class="container"><img src="Media/2016/images/2016image_' + i + '.JPG" onclick="openModal();currentSlide(' + i + ')" class="hover-shadow cursor"></div>';
-                                    }
-
                                 for (i = 1; i < 29; i++) {
-                                    videos += '<div class="container"><video controls><source src="Media/2016/videos/2016video_' + i + '.mp4" type="video/mp4" onclick="openModal();currentSlide(' + i + ')" class="hover-shadow cursor"></video></div>';
+                                    videos += '<div class="container"><video onclick="openModal();currentSlide(' + i + ')" class="hover-shadow cursor"><source src="Media/2016/videos/2016video_' + i + '.mp4" type="video/mp4"></video></div>';
                                     }
-
-                                document.getElementById("row").innerHTML= images + videos;
+                                 document.getElementById("row").innerHTML= videos;
 
                             </script>
-
-
+                             
 							</div>
+                        
 							<div class="clear"></div>
 							<div id="idModal" class="modal" >
 								<span class="close cursor" onclick="closeModal()">&times;</span>
-								<div class="modal-content">
+								<div id="modal-content">
+                                    
+                                <script>
+
+                                    var videos; 
+                                    videos = '';
+
+                                    for (i = 1; i < 29; i++) {
+                                        videos += '<div class="slides"><video controls><source src="Media/2016/videos/2016video_' + i + '.mp4" type="video/mp4" ></video></div>';
+                                        }
+                                    document.getElementById("modal-content").innerHTML= videos;
+
+                                </script>
 									
 									<div class="slides">
 										<img src="Media/2016/1.JPG">

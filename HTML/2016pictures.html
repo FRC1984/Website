@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<base href="..">
+		<link href="https://fonts.googleapis.com/css?family=Khula:400,600" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/websitecss.css" type="text/css">
+	</head>
+    
+	<body id="media">
+        
+        <div id="header"></div>
+		<script src="JS/header.js"></script>
+
+		<div class="l-wrap">
+			<div class="main-grid">
+                
+                <div id="sidebar"></div>
+				<script src="JS/sidebar.js"></script>
+
+				<div class="grid-item l-6">
+					<div class="grid-inner">
+						<div class="heading">
+							<h1>Media</h1>
+						</div>
+						
+							<a href="HTMl/2017.html" class="year">2017</a>
+							<a href="HTML/2016.html" class="year" style="color: #ffa700">2016</a>
+							<a href="HTML/2015.html" class="year">2015</a>
+							<a href="HTML/2014.html" class="year">2014</a>
+							<a href="HTML/2013.html" class="year">2013</a>
+							<a href="HTML/2012.html" class="year">2012</a>
+                            <br>
+                            <a href="HTML/2016pictures.html" class="year" style="color: #ffa700">Pictures</a>
+							<a href="HTML/2016videos.html" class="year">Videos</a>
+
+							<div id="row">
+                                
+                                
+                            <script>
+
+                                var images; 
+                                images = '';
+
+                                for (i = 1; i < 80; i++) {
+                                    images += '<div class="container"><img src="Media/2016/images/2016image_' + i + '.JPG" onclick="openModal();currentSlide(' + i + ')" class="hover-shadow cursor"></div>';
+                                    }
+                                document.getElementById("row").innerHTML= images;
+
+                            </script>
+
+
+							</div>
+							<div class="clear"></div>
+							<div id="idModal" class="modal" >
+								<span class="close cursor" onclick="closeModal()">&times;</span>
+								<div id="modal-content">
+									
+									<div class="slides">
+										<img src="Media/2016/1.JPG">
+									</div>
+	
+								<script>
+
+                                    var images; 
+                                    images = '';
+
+                                    for (i = 1; i < 29; i++) {
+                                        images += '<div class="slides"><img src="Media/2016/images/2016image_' + i + '.JPG"></div>';
+                                        }
+                                    document.getElementById("modal-content").innerHTML= images;
+
+                                </script>
+	      
+									<a class="prev" onclick="plusSlides(-1);">&#10094;</a>
+									<a class="next" onclick="plusSlides(1);">&#10095;</a>
+	
+								</div>
+							</div>
+							<script src="JS/slides.js"></script>
+					</div>
+				</div>
+			</div>
+		</div>
+        
+        <div id="footer"></div>
+		<script src="JS/footer.js"></script>
+
+	</body>
+</html>
