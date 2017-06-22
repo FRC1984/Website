@@ -11,6 +11,11 @@
     height: 10px;
 }
 
+.inlinelink {
+    color: #ffa700;
+    font-weight: 600;
+}
+
 .navheader {
 	background-color: ;
 	height: 120px;
@@ -20,13 +25,15 @@
 .logo {
 	height: 120px;
 	float: left;
+    padding: 5px 0;
 }
 
 .first {
-	width: 120px;
+	width: 110px;
+    padding: 10px 0;
 	float: right;
+    margin-right: 50px;
 }
-
 .nav ul {
 	list-style-type: none;
 	overflow: hidden;
@@ -83,12 +90,6 @@ body {
 
 #team h3 {
 	font-size: 11pt;
-}
-
-#team .toaboutfirst {
-	color: #ffa700;
-	text-decoration: underline;
-	font-weight: 600;
 }
 
 #schedule iframe {
@@ -149,8 +150,13 @@ body {
 	padding: 12px;
 	float: left;
 }
-.main-grid .l-3 {
+.main-grid .l-2 {
     width: 25%; /*2/8*/
+    padding: 12px;
+    float: left;
+}
+.main-grid .l-3 {
+    width: 37.5%; /*3/8*/
     padding: 12px;
     float: left;
 }
@@ -175,6 +181,9 @@ body {
 	text-align: center;
 	background-color: #fffcd4;
 }
+#sidebar .lastsponsor {
+    padding-bottom: 20px;
+}
 
 .heading h1 {
 	color: #ffa700;
@@ -197,10 +206,7 @@ body {
 .footer {
 	background-color: saddlebrown;
 	width: 100%;
-}
-
-.footer {
-	padding: 20px;
+    padding: 20px;
 }
 
 .footer li a {
@@ -209,6 +215,12 @@ body {
 	font-size: 10pt;
 	font-weight: 600;
 }
+#footer li h6 {
+    color: #ffa700;
+    font-size: 12pt;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
 
 .footer li a:hover {
 	color: #ffa700;
@@ -216,11 +228,14 @@ body {
 
 .footer li {
 	margin: 0px;
-	line-height: 12pt;
+	line-height: 1.1;
 }
 
 .footer ul {
     list-style-type: none;
+    display: inline-block;
+    vertical-align: text-top;
+    padding-right: 40px;
 }
 
 html {
@@ -337,7 +352,7 @@ img {
 }
 
 /* Modal Content */
-#media .modal-content {
+#media #modal-content {
 	position: relative;
 	background-color: rgba(0, 0, 0, 0);
 	margin: auto;
@@ -404,7 +419,13 @@ img {
 	background-color: black;
 }
 
-#media .modal-content img {
+#media #modal-content img {
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#media #modal-content video {
 	height: 100%;
 	position: absolute;
 	left: 50%;
@@ -430,7 +451,7 @@ img {
     width: 60%;
     display: inline-block;
     float: left;
-    padding-left: 20px;
+    padding: 0 0 40px 20px;
     font-size: 11pt;
 }
 
@@ -441,14 +462,15 @@ img {
     text-align: center;
     font-size: 10pt;
     line-height: 1.4;
-    padding: 10px 0 45px 0;
+    padding: 10px 0 15px 0;
 }
 #home .heading h1 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-.link {
+.link,
+.centerlink {
 	text-decoration: none;
 	font-size: 12pt;
 	color: #ffa700;
@@ -460,13 +482,15 @@ img {
     display: inline-block;
     text-align: center;
 }
-#home .link {
-    position: absolute;
-    left: 50%;
+
+.centerlink {
     transform: translateX(-50%);
-    bottom: 20px;
+    margin: 0 50%;
+    white-space: nowrap;
 }
-.link:hover {
+
+.link:hover,
+.centerlink:hover {
 	background-color: #ffa700;
 	color: #fffcd4;
 }
@@ -475,5 +499,5 @@ img {
 
 }
 #awards .award {
-    width: 85%;
+    width: 60%;
 }
