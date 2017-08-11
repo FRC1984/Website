@@ -4,6 +4,7 @@
 		<base href="..">
 		<link href="https://fonts.googleapis.com/css?family=Khula:400,600" rel="stylesheet">
         <link rel="stylesheet" href="CSS/websitecss.css" type="text/css">
+        <meta name="viewport" content="width=device-width">
 	</head>
     
 	<body id="media">
@@ -13,9 +14,6 @@
 
 		<div class="l-wrap">
 			<div class="main-grid">
-                
-                <div id="sidebar"></div>
-				<script src="JS/sidebar.js"></script>
 
 				<div class="grid-item l-6">
 					<div class="grid-inner">
@@ -64,8 +62,8 @@
                                     var images; 
                                     images = '';
 
-                                    for (i = 1; i < 29; i++) {
-                                        images += '<div class="slides"><img src="Media/2016/images/2016image_' + i + '.JPG"></div>';
+                                    for (i = 1; i < 80; i++) {
+                                        images += '<div class="slides"><img src="Media/2016/images/2016image_' + i + '.jpg"></div>';
                                         }
                                     document.getElementById("modal-content").innerHTML= images;
 
@@ -79,6 +77,10 @@
 							<script src="JS/slides.js"></script>
 					</div>
 				</div>
+                
+                <div id="sidebar"></div>
+				<script src="JS/sidebar.js"></script>
+                
 			</div>
 		</div>
         

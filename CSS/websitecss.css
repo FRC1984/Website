@@ -16,9 +16,8 @@
     font-weight: 600;
 }
 
-.navheader {
-	height: 120px;
-	background-color: saddlebrown;
+.header {
+	position: relative;
 }
 
 .logo {
@@ -42,6 +41,7 @@
 .nav li {
 	float: left;
 	font-size: 19px;
+    box-sizing: border-box;
 }
 
 .nav li a {
@@ -53,6 +53,7 @@
 	text-decoration: none;
 	position: relative;
 	font-size: 19px;
+    border-bottom: 3px solid transparent;
 }
 
 .nav li a:hover {
@@ -60,13 +61,13 @@
 	border-bottom: 3px solid #ffa700;
 }
 
-li {
+.nav li {
 	margin-top: 35px;
 	font-weight: bold;
 }
 
 body {
-	background-color:#fffcd4;
+	background-color:#fffcd9;
 }
 
 .clear {
@@ -120,6 +121,7 @@ body {
 #contact iframe {
 	height: 300px;
 	width: 412.547px;
+    max-width: 100%;
 	margin-top: 40px;
 }
 
@@ -133,28 +135,29 @@ body {
 	max-width: 4000px;
 	margin-right: auto;
 	margin-left: auto;
-	margin: 20px;
+    flex: 1 0 auto;
+	padding: 2vw;
 }
     
 .main-grid .l-6 {
 	width: 75%;/*6/8*/
-	padding: 12px;
+	padding: 1.3vw;
 	float: left;
 }
 .main-grid .l-2 {
     width: 25%; /*2/8*/
-    padding: 12px;
+    padding: 1.3vw;
     float: left;
 }
 .main-grid .l-3 {
     width: 37.5%; /*3/8*/
-    padding: 12px;
+    padding: 1.3vw;
     float: left;
 }
 
 .main-grid .l-sidebar {
 	width: 25%; /*2/8*/
-	padding: 12px;
+	padding: 1.3vw;
 	float: right;
 }
 
@@ -162,7 +165,7 @@ body {
 .equal-grid-inner {
 	display: block;
     float: left;
-	background: #fffcd4;
+	background: #fffcd9;
 	border: 2px solid saddlebrown;
 	border-radius: 5px;
 	padding: 20px;
@@ -173,7 +176,7 @@ body {
 	color: #ffa700;
 	font-size: 26px; /*20pt*/
 	text-align: center;
-	background-color: #fffcd4;
+	background-color: #fffcd9;
 }
 #sidebar .lastsponsor {
     padding-bottom: 20px;
@@ -182,7 +185,7 @@ body {
 .heading h1 {
 	color: #ffa700;
 	font-size: 26px;
-	background-color: #fffcd4;
+	background-color: #fffcd9;
 	margin-bottom: 20px;
 }
 
@@ -201,12 +204,13 @@ body {
 	background-color: saddlebrown;
 	width: 100%;
     padding: 20px;
+    text-align: center;
 }
 
 .footer li a {
-	color: #fffcd4;
+	color: #fffcd9;
 	text-decoration: none;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 600;
 }
 #footer li h6 {
@@ -228,7 +232,8 @@ body {
     list-style-type: none;
     display: inline-block;
     vertical-align: text-top;
-    padding-right: 40px;
+    padding: 0px 60px;
+    text-align: left;
 }
 
 html {
@@ -239,11 +244,6 @@ body {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-}
-
-.l-wrap {
-	flex: 1 0 auto;
-	padding: 20px;
 }
 
 #aboutfirst h2 {
@@ -453,7 +453,7 @@ img {
 }
 #home p {
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.4;
     padding: 10px 0 15px 0;
 }
@@ -472,7 +472,7 @@ img {
 	text-decoration: none;
 	color: #ffa700;
 	padding: 3px 6px 0px 6px;
-	background-color: #fffcd4;
+	background-color: #fffcd9;
 	border-radius: 3px;
 	border: 2px solid #ffa700;
 	font-weight: 600;
@@ -494,7 +494,7 @@ img {
 .link:hover,
 .centerlink:hover {
 	background-color: #ffa700;
-	color: #fffcd4;
+	color: #fffcd9;
 }
 .equal-grid-inner {
     position: relative;
@@ -505,6 +505,9 @@ img {
 }
 
 @media only screen and (max-width: 834px) {
+    .l-wrap {
+        margin: 0;
+    }
     .main-grid .l-2 {
         width: 50%;
     }
@@ -514,7 +517,6 @@ img {
     .main-grid .l-sidebar {
         width: 100%;
     }
-    
     #sidebar .grid-inner {
         text-align: center;
     }
@@ -523,18 +525,36 @@ img {
         width: 21%;
         margin: 5px 2%;
         display: inline-block;
+        vertical-align: middle;
     }
     
     #sidebar .art {
         display: inline;
+        font-size: 4vw;
+        vertical-align: bottom;
+        line-height: 2; /*to help align with images*/
+        padding: 0 5%;
     }
     
     #sidebar .lastsponsor {
         padding-bottom: 0;
     }
     
+    .navlinks {
+        position: absolute;
+        bottom: 0;
+        padding-bottom: 20px;
+    }
+    .logo,
+    .first {
+        margin-bottom: 40px;
+    }
     .nav li {
-        margin-top: 5px;
+        margin-top: 0;
+    }
+    
+    .footer ul {
+        padding: 0px 40px;
     }
 
 }
@@ -545,6 +565,25 @@ img {
     .main-grid .l-sidebar {
         width: 100%;
     }
-    
-    
+    .footer ul {
+        padding: 0px 5%;
+    }
+}
+
+@media only screen and (max-width: 467px) {
+    .footer ul:last-child {
+        padding-top: 20px;
+    }
+    .nav li a {
+        font-size: 4vw;
+        margin: 0 2.4vw 0 2.4vw;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .logo,
+    .first {
+        height: 33vw;
+        width: auto;
+    }
 }

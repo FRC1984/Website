@@ -3,7 +3,7 @@ var http = require('http'),
     fs = require('fs'),
     path = require('path'),
     url = require('url');
-    imageDir = '../Media/2016/images/';
+    imageDir = '/home/madeline/Website/Media/2016/images/';
  
 //create http server
 http.createServer(function (req, res) {
