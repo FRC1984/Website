@@ -48,12 +48,13 @@
 	display: block;
 	color: #faebc5;
 	text-align: center;
-	padding: 12px 4px 0px 4px;
+	padding: 12px 4px 1px 4px;
 	margin: 0px 12px 0px 12px;
 	text-decoration: none;
 	position: relative;
 	font-size: 19px;
     border-bottom: 3px solid transparent;
+    line-height: 1;
 }
 
 .nav li a:hover {
@@ -62,7 +63,7 @@
 }
 
 .nav li {
-	margin-top: 35px;
+	margin-top: 40px;
 	font-weight: bold;
 }
 
@@ -211,7 +212,7 @@ body {
 	color: #fffcd9;
 	text-decoration: none;
 	font-size: 14px;
-	font-weight: 600;
+	font-weight: 400;
 }
 #footer li h6 {
     color: #ffa700;
@@ -225,7 +226,7 @@ body {
 
 .footer li {
 	margin: 0px;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 
 .footer ul {
