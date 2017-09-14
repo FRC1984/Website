@@ -37,7 +37,6 @@ http.createServer(function (req, res) {
     }
  
 }).listen(8080);
-console.log("Server running at http://localhost:8080/");
  
 //get the list of images in the directory
 function getImages(imageDir, callback) {
