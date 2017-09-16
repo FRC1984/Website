@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<base href="..">
         <title>Jawas- Team 1984</title>
 		<link href="https://fonts.googleapis.com/css?family=Khula:400,600" rel="stylesheet">
         <link rel="stylesheet" href="CSS/websitecss.css" type="text/css">
@@ -35,17 +34,17 @@
 							<div id="row">
                                 
                                 
-                            <script>
 
-                                var images; 
-                                images = '';
 
-                                for (i = 1; i < 80; i++) {
-                                    images += '<div class="container"><img src="Media/2016/images/2016image_' + i + '.jpg" onclick="openModal();currentSlide(' + i + ')" class="hover-shadow cursor"></div>';
-                                    }
-                                document.getElementById("row").innerHTML= images;
+<?php
+    $files = glob("Media/2016/images/*.*");
+    for ($i=1; $i<count($files); $i++)
+        {
+            $image = $files[$i];
+            echo '<div class="container"><img src="'.$image .'" onclick="openModal();currentSlide('.$i.')" class="hover-shadow cursor"></div>';
+        }
+?>
 
-                            </script>
 
 
 							</div>
@@ -58,7 +57,7 @@
 										<img src="Media/2016/1.JPG">
 									</div>
 	
-								<script>
+								<!--<script>
 
                                     var images; 
                                     images = '';
@@ -68,14 +67,14 @@
                                         }
                                     document.getElementById("modal-content").innerHTML= images;
 
-                                </script>
+                                </script>-->
 	      
-									<a class="prev" onclick="plusSlides(-1);">&#10094;</a>
-									<a class="next" onclick="plusSlides(1);">&#10095;</a>
+									<!--<a class="prev" onclick="plusSlides(-1);">&#10094;</a>
+									<a class="next" onclick="plusSlides(1);">&#10095;</a>-->
 	
 								</div>
 							</div>
-							<script src="JS/slides.js"></script>-->
+							<script src="JS/slides.js"></script>
 					</div>
 				</div>
                 
