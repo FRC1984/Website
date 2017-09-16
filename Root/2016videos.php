@@ -28,24 +28,20 @@
 							<a href="2013.html" class="year">2013</a>
 							<a href="2012.html" class="year">2012</a>
                             <br>
-                            <a href="2016pictures.html" class="year" style="color: #ffa700">Pictures</a>
-							<a href="2016videos.html" class="year">Videos</a>
+                            <a href="2016pictures.html" class="year">Pictures</a>
+							<a href="2016videos.html" class="year" style="color: #ffa700">Videos</a>
 
 							<div id="row">
-                                
-                                
 
-
-<?php
-    $files = glob("Media/2016/images/*.*");
-    for ($i=1; $i<count($files); $i++)
-        {
-            $image = $files[$i];
-            echo '<div class="container"><img src="'.$image .'" onclick="openModal();currentSlide('.$i.')" class="hover-shadow cursor"></div>';
-        }
-?>
-
-
+                            <?php
+                                $files = glob("Media/2016/videos/*.*");
+                                for ($i=1; $i<count($files); $i++)
+                                    {
+                                    $video = $files[$i];
+                                    $slide = $i + 1;
+                                    echo '<div class="container"><img src="'.$video .'" onclick="openModal();currentSlide('.$slide.')" class="hover-shadow cursor"></div>';
+                                    }
+                            ?>
 
 							</div>
 							<div class="clear"></div>
@@ -56,21 +52,20 @@
 									<div class="slides">
 										<img src="Media/2016/1.JPG">
 									</div>
-	
-								<!--<script>
-
-                                    var images; 
-                                    images = '';
-
-                                    for (i = 1; i < 80; i++) {
-                                        images += '<div class="slides"><img src="Media/2016/images/2016image_' + i + '.jpg"></div>';
-                                        }
-                                    document.getElementById("modal-content").innerHTML= images;
-
-                                </script>-->
-	      
-									<!--<a class="prev" onclick="plusSlides(-1);">&#10094;</a>
-									<a class="next" onclick="plusSlides(1);">&#10095;</a>-->
+                                    
+                                    <?php
+                                        $files = glob("Media/2016/videos/*.*");
+                                        for ($i=1; $i<count($files); $i++)
+                                            {
+                                            $video = $files[$i];
+                                            echo '<div class="slides"><img src="'.$video.'"></div>';
+                                            }
+                                    ?>
+                                    
+                                    
+                                    
+                                    <a class="prev" onclick="plusSlides(-1);">&#10094;</a>
+									<a class="next" onclick="plusSlides(1);">&#10095;</a>
 	
 								</div>
 							</div>
