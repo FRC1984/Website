@@ -9,8 +9,7 @@
     
 	<body id="media">
         
-        <div id="header"></div>
-		<script src="JS/header.js"></script>
+        <?php include 'header.php';?>
 
 		<div class="l-wrap">
 			<div class="main-grid">
@@ -21,15 +20,15 @@
 							<h1>Media</h1>
 						</div>
 						
-							<a href="2017.html" class="year">2017</a>
-							<a href="2016.html" class="year" style="color: #ffa700">2016</a>
-							<a href="2015.html" class="year">2015</a>
-							<a href="2014.html" class="year">2014</a>
-							<a href="2013.html" class="year">2013</a>
-							<a href="2012.html" class="year">2012</a>
+							<a href="2017.php" class="year">2017</a>
+							<a href="2016.php" class="year" style="color: #ffa700">2016</a>
+							<a href="2015.php" class="year">2015</a>
+							<a href="2014.php" class="year">2014</a>
+							<a href="2013.php" class="year">2013</a>
+							<a href="2012.php" class="year">2012</a>
                             <br>
-                            <a href="2016pictures.html" class="year" style="color: #ffa700">Pictures</a>
-							<a href="2016videos.html" class="year">Videos</a>
+                            <a href="2016pictures.php" class="year" style="color: #ffa700">Pictures</a>
+							<a href="2016videos.php" class="year">Videos</a>
 
 							<div id="row">
                                 
@@ -78,14 +77,13 @@
 					</div>
 				</div>
                 
-                <div id="sidebar"></div>
-				<script src="JS/sidebar.js"></script>
+                <?php include 'sidebar.php';?>
                 
 			</div>
 		</div>
         
-        <div id="footer"></div>
-		<script src="JS/footer.js"></script>
+        
+		<?php include 'footer.php';?>
 
 	</body>
 </html>

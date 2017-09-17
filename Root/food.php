@@ -10,8 +10,7 @@
 
 	<body id="parents">
         
-	   <div id="header"></div>
-		<script src="JS/header.js"></script>
+        <?php include 'header.php';?>
 		
 		<div class="l-wrap">
 			<div class="main-grid">
@@ -26,14 +25,13 @@
 					</div>
 				</div>
                 
-                <div id="sidebar"></div>
-				<script src="JS/sidebar.js"></script>
+                <?php include 'sidebar.php';?>>
                 
 			</div>
 		</div>
 		
-        <div id="footer"></div>
-		<script src="JS/footer.js"></script>
+        
+		<?php include 'footer.php';?>
 
 	</body>
 </html>

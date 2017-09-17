@@ -10,8 +10,7 @@
 
 	<body id="team">
 
-        <div id="header"></div>
-		<script src="JS/header.js"></script>
+        <?php include 'header.php';?>
 		
 		<div class="l-wrap">
 			<div class="main-grid">
@@ -21,7 +20,7 @@
 						<div class="heading">
 							<h1>About Our Team</h1>
 						</div>
-						<p>We are FRC team 1984, the Jawas, from Shawnee Mission South high school in Overland Park Kansas. <a href="aboutfirst.html" class="inlinelink">Click here</a> to learn more about FIRST. </p><br>
+						<p>We are FRC team 1984, the Jawas, from Shawnee Mission South high school in Overland Park Kansas. <a href="aboutfirst.php" class="inlinelink">Click here</a> to learn more about FIRST. </p><br>
 						<img class="picture" src="Media/team.jpg" alt="Team">
 						<div class="members">
 							<h2>Freshmen:</h2>
@@ -50,14 +49,13 @@
 					</div>
 				</div>
                 
-                <div id="sidebar"></div>
-				<script src="JS/sidebar.js"></script>
+                <?php include 'sidebar.php';?>
                 
 			</div>
 		</div>
 		
-        <div id="footer"></div>
-		<script src="JS/footer.js"></script>
+        
+		<?php include 'footer.php';?>
 	
 	</body>
 </html>

@@ -11,8 +11,7 @@
 
 	<body id="home">
         
-		<div id="header"></div>
-		<script src="JS/header.js"></script>
+        <?php include 'header.php';?>
 
         <div class="l-wrap">
 			<div class="main-grid">
@@ -24,7 +23,7 @@
                         </div>
                         <img class="homeimage" src="Media/team.jpg">
                         <p>We are the Jawas, FRC team 1984. We are a FIRST Robotics team based out of Overland Park, KS. Formed in 2006, this is our 11th year competing. Our team works hard to spread the message of FIRST in our school, community, and world.</p><br><br>
-                        <a href="team.html" class="centerlink">LEARN MORE</a>
+                        <a href="team.php" class="centerlink">LEARN MORE</a>
 					</div>
 				</div>
 
@@ -36,7 +35,7 @@
                         </div>
                         <img class="homeimage" src="Media/RobotCamp/kid3.jpg">
                         <p>The day camp combines LEGO building, computer programming, design, team-work, and problem-solving skills in a fun and challenging environment. The day camp is specifically designed for younger students that are interested in exploring robotics using the Lego NXT systems from Lego Education.</p><br><br>
-                        <a href="robotcamp.html" class="centerlink">SIGN UP</a>
+                        <a href="robotcamp.php" class="centerlink">SIGN UP</a>
 					</div>
 				</div>
                 
@@ -47,17 +46,17 @@
                         </div>
                         <img class="homeimage" src="Media/robot.jpg">
                         <p>Our 2017 Robot, Chlamydomonas, collects fuel from hoppers or the ground, and scores in the high effieciency goal of the boiler. Chlamydomonas also collects gears from the ground to deliver to the pilots on the airship, beofre climbing a rope at the end of the match.</p><br><br>
-                        <a href="history.html" class="centerlink">LEARN MORE</a>
+                        <a href="history.php" class="centerlink">LEARN MORE</a>
 					</div>
 				</div>
                 
-                <div id="sidebar"></div>
-				<script src="JS/sidebar.js"></script>           
+                <?php include 'sidebar.php';?>
+                
 			</div>
 		</div>
 
-        <div id="footer"></div>
-		<script src="JS/footer.js"></script>
+        
+		<?php include 'footer.php';?>
  
 	</body>
 </html>
