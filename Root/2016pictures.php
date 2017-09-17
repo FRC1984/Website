@@ -36,7 +36,7 @@
 
 
                             <?php
-                                $files = glob("Media/2016/images/*.*");
+                                $files = glob("Media/2016/images/*");
                                 for ($i=1; $i<count($files); $i++)
                                     {
                                     $image = $files[$i];
@@ -58,7 +58,7 @@
 									</div>
                                     
                                     <?php
-                                        $files = glob("Media/2016/images/*.*");
+                                        $files = glob("Media/2016/images/*");
                                         for ($i=1; $i<count($files); $i++)
                                             {
                                             $image = $files[$i];

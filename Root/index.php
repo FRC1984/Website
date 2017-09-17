@@ -45,7 +45,7 @@
                             <h1>2017 Robot</h1>
                         </div>
                         <img class="homeimage" src="Media/robot.jpg">
-                        <p>Our 2017 Robot, Chlamydomonas, collects fuel from hoppers or the ground, and scores in the high effieciency goal of the boiler. Chlamydomonas also collects gears from the ground to deliver to the pilots on the airship, beofre climbing a rope at the end of the match.</p><br><br>
+                        <p>Our 2017 Robot, Chlamydomonas, collects fuel from hoppers or the ground, and scores in the high effieciency goal of the boiler. Chlamydomonas also collects gears from the ground to deliver to the pilots on the airship, before climbing a rope at the end of the match.</p><br><br>
                         <a href="history.php" class="centerlink">LEARN MORE</a>
 					</div>
 				</div>
