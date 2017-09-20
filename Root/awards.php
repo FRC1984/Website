@@ -21,7 +21,7 @@
 						</div>
 							<h2>Ozark Mountain Brawl 2016<br>
                         Second Place</h2>
-							<img class="award" src="Media/2016image_40.jpg">
+							<img class="award" src="Media/2016image_40.jpg" alt="Second Place">
 					</div>
 				</div>
                 

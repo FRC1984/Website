@@ -8,9 +8,9 @@
         <meta name="viewport" content="width=device-width">
 	</head>
 
-    <?php include 'header.php';?>
-
 	<body id="schedule">
+        
+        <?php include 'header.php';?>
     
 		<div class="l-wrap">
 			<div class="main-grid">

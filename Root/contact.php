@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
         <title>Jawas- Team 1984</title>
 		<link href="https://fonts.googleapis.com/css?family=Khula:400,600" rel="stylesheet">
         <link rel="stylesheet" href="CSS/websitecss.css" type="text/css">
         <meta name="viewport" content="width=device-width">
 	</head>
 
-    <?php include 'header.php';?>
-
 	<body id="contact">
+        
+        <?php include 'header.php';?>
 
 		<div class="l-wrap">
 			<div class="main-grid">

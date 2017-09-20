@@ -44,7 +44,7 @@
 						
 						<div class="members">
 							<h2>Coaches and Mentors:</h2>
-							<h3>Daniel Plotas<br>Paul Plotas<br>Ted Smith<br>Garmin guy<br>Garmin guy</h3>
+							<h3>Daniel Plotas<br>Paul Plotas<br>Ted Smith<br>Isaiah Burger<br>Jared Roehrich</h3>
 						</div>
 					</div>
 				</div>

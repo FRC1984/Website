@@ -38,7 +38,7 @@
                                     {
                                     $video = $files[$i];
                                     $slide = $i + 1;
-                                    echo '<div class="container"><img src="'.$video .'" onclick="openModal();currentSlide('.$slide.')" class="hover-shadow cursor"></div>';
+                                    echo '<div class="container"><img src="'.$video .'" alt="2016 video" onclick="openModal();currentSlide('.$slide.')" class="hover-shadow cursor"></div>';
                                     }
                             ?>
 
@@ -57,7 +57,7 @@
                                         for ($i=1; $i<count($files); $i++)
                                             {
                                             $video = $files[$i];
-                                            echo '<div class="slides"><img src="'.$video.'"></div>';
+                                            echo '<div class="slides"><img src="'.$video.'" alt="2016 video"></div>';
                                             }
                                     ?>
                                     

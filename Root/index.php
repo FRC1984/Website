@@ -21,7 +21,7 @@
 						<div class="heading">
                             <h1>Our Team</h1>
                         </div>
-                        <img class="homeimage" src="Media/team.jpg">
+                        <img class="homeimage" src="Media/team.jpg" alt="Our Team">
                         <p>We are the Jawas, FRC team 1984. We are a FIRST Robotics team based out of Overland Park, KS. Formed in 2006, this is our 11th year competing. Our team works hard to spread the message of FIRST in our school, community, and world.</p><br><br>
                         <a href="team.php" class="centerlink">LEARN MORE</a>
 					</div>
@@ -33,7 +33,7 @@
 						<div class="heading">
                             <h1>Robot Camp</h1>
                         </div>
-                        <img class="homeimage" src="Media/RobotCamp/kid3.jpg">
+                        <img class="homeimage" src="Media/RobotCamp/kid3.jpg" alt="Robot Camp">
                         <p>The day camp combines LEGO building, computer programming, design, team-work, and problem-solving skills in a fun and challenging environment. The day camp is specifically designed for younger students that are interested in exploring robotics using the Lego NXT systems from Lego Education.</p><br><br>
                         <a href="robotcamp.php" class="centerlink">SIGN UP</a>
 					</div>
@@ -44,7 +44,7 @@
 						<div class="heading">
                             <h1>2017 Robot</h1>
                         </div>
-                        <img class="homeimage" src="Media/robot.jpg">
+                        <img class="homeimage" src="Media/robot.jpg" alt="2017 Robot">
                         <p>Our 2017 Robot, Chlamydomonas, collects fuel from hoppers or the ground, and scores in the high effieciency goal of the boiler. Chlamydomonas also collects gears from the ground to deliver to the pilots on the airship, before climbing a rope at the end of the match.</p><br><br>
                         <a href="history.php" class="centerlink">LEARN MORE</a>
 					</div>
