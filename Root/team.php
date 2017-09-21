@@ -24,12 +24,12 @@
 						<img class="picture" src="Media/team.jpg" alt="Team">
 						<div class="members">
 							<h2>Freshmen:</h2>
-							<h3>new people</h3>
+							<h3>William Foss<br>Blake Helton<br>Lindsey Chiu<br>Lauren Crain<br>Oscar Flassig<br>Owen Krussow<br>Andrew Price<br>Pierce Lane<br>Elijah Brando</h3>
 						</div>
 						
 						<div class="members">
 							<h2>Sophomores:</h2>
-							<h3>Weston Glendening<br>Armeen Mahdian<br>Jacob Keller</h3>
+							<h3>Weston Glendening<br>Armeen Mahdian</h3>
 						</div>
 						
 						<div class="members">
@@ -39,7 +39,7 @@
 						
 						<div class="members">
 							<h2>Seniors:</h2>
-							<h3>Bennett Vavak<br>Aidan Smith<br>Madeline Bermond<br>Sam Waris</h3>
+							<h3>Bennett Vavak<br>Aidan Smith<br>Madeline Bermond<br>Sam Waris<br>Peter Sears<br>Nick McKee-rist<br>Andrew Bauer<br>Abbie Rieber<br>Adrian Blomquist</h3>
 						</div>
 						
 						<div class="members">
