@@ -3,16 +3,16 @@
 	padding: 0;
 	font-family: 'Khula', sans-serif;
 	font-size: 16px; /*12pt*/
-	color: saddlebrown;
+	color: #934914;
 }
 
 .goldline {
-    background-color: #ffa700;
+    background-color: #ffd000;
     height: 10px;
 }
 
 .inlinelink {
-    color: #ffa700;
+    color: #ffd000;
     font-weight: 600;
 }
 
@@ -35,7 +35,7 @@
 .nav ul {
 	list-style-type: none;
 	overflow: hidden;
-	background-color: saddlebrown;
+	background-color: #934914;
 }
 
 .nav li {
@@ -46,7 +46,7 @@
 
 .nav li a {
 	display: block;
-	color: #faebc5;
+	color: white;
 	text-align: center;
 	padding: 12px 4px 1px 4px;
 	margin: 0px 12px 0px 12px;
@@ -58,8 +58,8 @@
 }
 
 .nav li a:hover {
-	color: #ffa700;
-	border-bottom: 3px solid #ffa700;
+	color: #ffd000;
+	border-bottom: 3px solid #ffd000;
 }
 
 .nav li {
@@ -68,7 +68,7 @@
 }
 
 body {
-	background-color:#fffcd9;
+	background-color:white;
 }
 
 .clear {
@@ -166,27 +166,27 @@ body {
 .equal-grid-inner {
 	display: block;
     float: left;
-	background: #fffcd9;
-	border: 2px solid saddlebrown;
+	background: white;
+	border: 2px solid #934914;
 	border-radius: 5px;
 	padding: 20px;
     width: 100%; /*added to fix iframe*/
 }
 
 .sidebarheading h1 {
-	color: #ffa700;
+	color: #ffd000;
 	font-size: 26px; /*20pt*/
 	text-align: center;
-	background-color: #fffcd9;
+	background-color: white;
 }
 #sidebar .lastsponsor {
     padding-bottom: 20px;
 }
 
 .heading h1 {
-	color: #ffa700;
+	color: #ffd000;
 	font-size: 26px;
-	background-color: #fffcd9;
+	background-color: white;
 	margin-bottom: 20px;
 }
 
@@ -202,26 +202,26 @@ body {
 }
 
 .footer {
-	background-color: saddlebrown;
+	background-color: #934914;
 	width: 100%;
     padding: 20px;
     text-align: center;
 }
 
 .footer li a {
-	color: #fffcd9;
+	color: white;
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: 400;
 }
 #footer li h6 {
-    color: #ffa700;
+    color: #ffd000;
     font-weight: 600;
     padding-bottom: 5px;
 }
 
 .footer li a:hover {
-	color: #ffa700;
+	color: #ffd000;
 }
 
 .footer li {
@@ -471,11 +471,11 @@ img {
 .link,
 .centerlink {
 	text-decoration: none;
-	color: #ffa700;
+	color: #ffd000;
 	padding: 3px 6px 0px 6px;
-	background-color: #fffcd9;
+	background-color: white;
 	border-radius: 3px;
-	border: 2px solid #ffa700;
+	border: 2px solid #ffd000;
 	font-weight: 600;
     display: inline-block;
     text-align: center;
@@ -494,8 +494,8 @@ img {
 
 .link:hover,
 .centerlink:hover {
-	background-color: #ffa700;
-	color: #fffcd9;
+	background-color: #ffd000;
+	color: white;
 }
 .equal-grid-inner {
     position: relative;

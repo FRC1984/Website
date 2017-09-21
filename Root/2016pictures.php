@@ -21,13 +21,13 @@
 						</div>
 						
 							<a href="2017.php" class="year">2017</a>
-							<a href="2016.php" class="year" style="color: #ffa700">2016</a>
+							<a href="2016.php" class="year" style="color: #ffd000">2016</a>
 							<a href="2015.php" class="year">2015</a>
 							<a href="2014.php" class="year">2014</a>
 							<a href="2013.php" class="year">2013</a>
 							<a href="2012.php" class="year">2012</a>
                             <br>
-                            <a href="2016pictures.php" class="year" style="color: #ffa700">Pictures</a>
+                            <a href="2016pictures.php" class="year" style="color: #ffd000">Pictures</a>
 							<a href="2016videos.php" class="year">Videos</a>
 
 							<div id="row">
