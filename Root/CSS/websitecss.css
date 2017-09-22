@@ -3,7 +3,7 @@
 	padding: 0;
 	font-family: 'Khula', sans-serif;
 	font-size: 16px; /*12pt*/
-	color: #934914;
+	color: #ffd000;
 }
 
 .goldline {
@@ -12,7 +12,6 @@
 }
 
 .inlinelink {
-    color: #ffd000;
     font-weight: 600;
 }
 
@@ -35,7 +34,7 @@
 .nav ul {
 	list-style-type: none;
 	overflow: hidden;
-	background-color: #934914;
+	background-color: #1c1c1c;
 }
 
 .nav li {
@@ -46,7 +45,7 @@
 
 .nav li a {
 	display: block;
-	color: white;
+	color: #934914;
 	text-align: center;
 	padding: 12px 4px 1px 4px;
 	margin: 0px 12px 0px 12px;
@@ -68,7 +67,7 @@
 }
 
 body {
-	background-color:white;
+	background-color:#1e1e1e;
 }
 
 .clear {
@@ -166,7 +165,7 @@ body {
 .equal-grid-inner {
 	display: block;
     float: left;
-	background: white;
+	background: #1c1c1c;
 	border: 2px solid #934914;
 	border-radius: 5px;
 	padding: 20px;
@@ -177,16 +176,16 @@ body {
 	color: #ffd000;
 	font-size: 26px; /*20pt*/
 	text-align: center;
-	background-color: white;
+	background-color: #1c1c1c;
 }
 #sidebar .lastsponsor {
     padding-bottom: 20px;
 }
 
 .heading h1 {
-	color: #ffd000;
+	color: #934914;
 	font-size: 26px;
-	background-color: white;
+	background-color: #1c1c1c;
 	margin-bottom: 20px;
 }
 
@@ -473,7 +472,7 @@ img {
 	text-decoration: none;
 	color: #ffd000;
 	padding: 3px 6px 0px 6px;
-	background-color: white;
+	background-color: #1c1c1c;
 	border-radius: 3px;
 	border: 2px solid #ffd000;
 	font-weight: 600;
