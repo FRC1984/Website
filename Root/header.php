@@ -3,7 +3,7 @@
     <div class="nav">
         <ul>
             <a href="index.php">
-                <img class="logo" src="Media/yellow_transparent_sandcrawler.png" alt="Logo">
+                <img class="logo" src="Media/orange_transparent_sandcrawler.png" alt="Logo">
             </a>
             <a href="https://www.firstinspires.org/" target="blank">
                 <img class="first" src="http://team4element.com/wp-content/uploads/2017/01/FIRST_vert.gif" alt="FIRST">
