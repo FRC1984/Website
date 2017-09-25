@@ -20,30 +20,30 @@
 						<div class="heading">
 							<h1>About Our Team</h1>
 						</div>
-						<p>We are FRC team 1984, the Jawas, from Shawnee Mission South high school in Overland Park Kansas. <a href="aboutfirst.php" class="inlinelink">Click here</a> to learn more about FIRST. </p><br>
+						<p>We are FIRST Robotics Competition Team #1984, the Jawa's, from Shawnee Mission South high school in Overland Park, Kansas. <a href="aboutfirst.php" class="inlinelink">Click here</a> to learn more about FIRST. </p><br>
 						<img class="picture" src="Media/team.jpg" alt="Team">
 						<div class="members">
-							<h2>Freshmen:</h2>
+							<h2>Freshmen</h2>
 							<h3>William Foss<br>Blake Helton<br>Lindsey Chiu<br>Lauren Crain<br>Oscar Flassig<br>Owen Krussow<br>Andrew Price<br>Pierce Lane<br>Elijah Brando</h3>
 						</div>
 						
 						<div class="members">
-							<h2>Sophomores:</h2>
+							<h2>Sophomores</h2>
 							<h3>Weston Glendening<br>Armeen Mahdian</h3>
 						</div>
 						
 						<div class="members">
-							<h2>Juniors:</h2>
+							<h2>Juniors</h2>
 							<h3>Jakob Grable</h3>
 						</div>
 						
 						<div class="members">
-							<h2>Seniors:</h2>
+							<h2>Seniors</h2>
 							<h3>Bennett Vavak<br>Aidan Smith<br>Madeline Bermond<br>Sam Waris<br>Peter Sears<br>Nick McKee-rist<br>Andrew Bauer<br>Abbie Rieber<br>Adrian Blomquist</h3>
 						</div>
 						
 						<div class="members">
-							<h2>Coaches and Mentors:</h2>
+							<h2>Coaches and Mentors</h2>
 							<h3>Daniel Plotas<br>Paul Plotas<br>Ted Smith<br>Isaiah Burger<br>Jared Roehrich</h3>
 						</div>
 					</div>

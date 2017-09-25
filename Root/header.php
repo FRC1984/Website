@@ -6,7 +6,7 @@
                 <img class="logo" src="Media/yellow_transparent_sandcrawler.png" alt="Logo">
             </a>
             <a href="https://www.firstinspires.org/" target="blank">
-                <img class="first" src="http://team4element.com/wp-content/uploads/2017/01/FIRST_vert.gif" alt="FIRST">
+                <img class="first" src="https://www.firstinspires.org/sites/all/themes/first/assets/images/FIRST_logo.png" alt="FIRST">
             </a>
             <div class="navlinks">
                 <li><a href="index.php">Home</a></li>
