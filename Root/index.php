@@ -16,7 +16,7 @@
         <div class="l-wrap">
 			<div class="main-grid">
 
-                <div class="grid-item l-2">
+                <div class="grid-item l-2p6">
 					<div class="equal-grid-inner">
 						<div class="heading">
                             <h1>Our Team</h1>
@@ -28,18 +28,18 @@
 				</div>
 
                 
-                <div class="grid-item l-2">
+                <div class="grid-item l-2p6">
 					<div class="equal-grid-inner">
 						<div class="heading">
                             <h1>Robot Camp</h1>
                         </div>
-                        <img class="homeimage" src="Media/RobotCamp/kid3.jpg" alt="Robot Camp">
+                        <img class="homeimage" src="Media/RobotCamp/kid1.jpg" alt="Robot Camp">
                         <p>The day camp combines LEGO building, computer programming, design, team-work, and problem-solving skills in a fun and challenging environment. The day camp is specifically designed for younger students that are interested in exploring robotics using the Lego NXT systems from Lego Education.</p><br><br>
                         <a href="robotcamp.php" class="centerlink">SIGN UP</a>
 					</div>
 				</div>
                 
-                <div class="grid-item l-2">
+                <div class="grid-item l-2p6">
 					<div class="equal-grid-inner">
 						<div class="heading">
                             <h1>2017 Robot</h1>

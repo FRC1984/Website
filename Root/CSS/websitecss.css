@@ -7,12 +7,12 @@
 }
 
 .goldline {
-    background-color: #ffd000;
+    background-color: #ffc700;
     height: 10px;
 }
 
 .inlinelink {
-    font-weight: 600;
+    color: #ffc700;
 }
 
 .header {
@@ -57,8 +57,8 @@
 }
 
 .nav li a:hover {
-	color: #ffd000;
-	border-bottom: 3px solid #ffd000;
+	color: #ffc700;
+	border-bottom: 3px solid #ffc700;
 }
 
 .nav li {
@@ -67,7 +67,7 @@
 }
 
 body {
-	background-color:#1e1e1e;
+	background-color:#262626;
 }
 
 .clear {
@@ -80,14 +80,14 @@ body {
 
 #team .members {
 	display: inline-block;
-	padding: 15px 20px;
+	padding: 15px 2%;
 	vertical-align: top;
 	text-align: center;
 }
 
 #team h2 {
 	font-size: 19px;
-	color: #ffd000;
+	color: #ffc700;
 	text-align: center;
 }
 
@@ -103,11 +103,21 @@ body {
 #team .grid-inner {
 	text-align:center;
 }
-
+#team .aboutfirst p {
+    text-align: left;
+    font-weight: 400;
+}
+#team .aboutfirst h4 {
+    text-align: left;
+    color: #ffc700;
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 19px;
+}
 #schedule iframe {
 	display: block;
 	margin: auto;
-	width: 90%;
+	width: 100%;
 	height: 600px;
 }
 #contact .person {
@@ -132,9 +142,12 @@ body {
 
 #contact iframe {
 	height: 300px;
-	width: 412.547px;
+	width: 90%;
     max-width: 100%;
 	margin-top: 40px;
+}
+#contact .grid-inner {
+    text-align: center;
 }
 
 *,
@@ -145,8 +158,6 @@ body {
 
 .l-wrap {
 	max-width: 4000px;
-	margin-right: auto;
-	margin-left: auto;
     flex: 1 0 auto;
 	padding: 2vw;
 }
@@ -156,13 +167,33 @@ body {
 	padding: 1.3vw;
 	float: left;
 }
+.main-grid .l-5 {
+	width: 62.5%;/*5/8*/
+	padding: 1.3vw;
+	float: left;
+}
+.main-grid .l-4 {
+	width: 50%;/*4/8*/
+	padding: 1.3vw;
+	float: left;
+}
 .main-grid .l-2 {
     width: 25%; /*2/8*/
     padding: 1.3vw;
     float: left;
 }
+.main-grid .l-2p6 {
+	width: 33.33333%;/*2.6/8*/
+	padding: 1.3vw;
+	float: left;
+}
 .main-grid .l-3 {
     width: 37.5%; /*3/8*/
+    padding: 1.3vw;
+    float: left;
+}
+.main-grid .l-8 {
+    width: 100%; /*8/8*/
     padding: 1.3vw;
     float: left;
 }
@@ -185,7 +216,7 @@ body {
 }
 
 .sidebarheading h1 {
-	color: #ffd000;
+	color: #ffc700;
 	font-size: 26px; /*20pt*/
 	text-align: center;
 	background-color: #1c1c1c;
@@ -195,7 +226,7 @@ body {
 }
 
 .heading h1 {
-	color: #ffd000;
+	color: #ffc700;
 	font-size: 26px;
 	background-color: #1c1c1c;
 	margin-bottom: 20px;
@@ -221,7 +252,7 @@ body {
 }
 
 .footer li a {
-	color: #ffd000;
+	color: #ffc700;
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: 400;
@@ -233,7 +264,7 @@ body {
 }
 
 .footer li a:hover {
-	color: #ffd000;
+	color: #ffc700;
 }
 
 .footer li {
@@ -257,12 +288,6 @@ body {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-}
-
-#aboutfirst h2 {
-	font-size: 22px;
-	display: inline;
-	line-height: 40px;
 }
 
 img {
@@ -483,11 +508,11 @@ img {
 .link,
 .centerlink {
 	text-decoration: none;
-	color: #ffd000;
+	color: #ffc700;
 	padding: 3px 6px 0px 6px;
 	background-color: #1c1c1c;
 	border-radius: 3px;
-	border: 2px solid #ffd000;
+	border: 2px solid #ffc700;
 	font-weight: 600;
     display: inline-block;
     text-align: center;
@@ -506,15 +531,16 @@ img {
 
 .link:hover,
 .centerlink:hover {
-	background-color: #ffd000;
+	background-color: #ffc700;
 	color: #1c1c1c;
 }
 .equal-grid-inner {
     position: relative;
 
 }
-#awards .award {
-    width: 60%;
+#team .award {
+    width: 100%;
+    vertical-align: text-bottom;
 }
 
 @media only screen and (max-width: 834px) {
@@ -526,6 +552,9 @@ img {
     }
     .main-grid .l-6 {
         width: 100%;
+    }
+    .main-grid .l-2p6 {
+        width: 100%
     }
     .main-grid .l-sidebar {
         width: 100%;
@@ -575,6 +604,7 @@ img {
 @media only screen and (max-width: 600px) {
     .main-grid .l-2,
     .main-grid .l-6,
+    .main-grid .l-2p6,
     .main-grid .l-sidebar {
         width: 100%;
     }
