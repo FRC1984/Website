@@ -3,7 +3,7 @@
     <div class="nav">
         <ul>
             <a href="index.php">
-                <img class="logo" src="Media/orange_transparent_sandcrawler.png" alt="Logo">
+                <img class="logo" src="Media/1984_FFC700.png" alt="Logo">
             </a>
             <a href="https://www.firstinspires.org/" target="blank">
                 <img class="first" src="https://www.firstinspires.org/sites/all/themes/first/assets/images/FIRST_logo.png" alt="FIRST">

@@ -3,11 +3,12 @@
 	padding: 0;
 	font-family: 'Khula', sans-serif;
 	font-size: 16px; /*12pt*/
-	color: #936014;
+	color: hsla(47, 100%, 35%, 1);;
 }
 
 .goldline {
-    background-color: #ffc700;
+    background-image: url("/media/gold_glow.png");
+	background-color: #262626;
     height: 10px;
 }
 
@@ -34,7 +35,12 @@
 .nav ul {
 	list-style-type: none;
 	overflow: hidden;
-	background-color: #1c1c1c;
+	background: #1c1c1c; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#262626, #1c1c1c); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#262626, #1c1c1c); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#262626, #1c1c1c); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#262626, #1c1c1c); /* Standard syntax */
+
 }
 
 .nav li {
@@ -45,15 +51,15 @@
 
 .nav li a {
 	display: block;
-	color: #936014;
+	color: hsla(47, 100%, 35%, 1);;
 	text-align: center;
 	padding: 12px 4px 1px 4px;
 	margin: 0px 12px 0px 12px;
 	text-decoration: none;
 	position: relative;
 	font-size: 19px;
-    border-bottom: 3px solid transparent;
-    line-height: 1;
+	border-bottom: 3px solid transparent;
+	line-height: 1;
 }
 
 .nav li a:hover {
@@ -209,7 +215,7 @@ body {
 	display: block;
     float: left;
 	background: #1c1c1c;
-	border: 2px solid #936014;
+	border: 2px solid hsla(47, 100%, 35%, 1);;
 	border-radius: 5px;
 	padding: 20px;
     width: 100%; /*added to fix iframe*/
@@ -245,10 +251,14 @@ body {
 }
 
 .footer {
-	background-color: #1c1c1c;
+	background: #1c1c1c; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#1c1c1c, #262626); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#1c1c1c, #262626); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#1c1c1c, #262626); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#1c1c1c, #262626); /* Standard syntax */
 	width: 100%;
-    padding: 20px;
-    text-align: right;
+	padding: 20px;
+	text-align: right;
 }
 
 .footer li a {
@@ -258,7 +268,7 @@ body {
 	font-weight: 400;
 }
 #footer li h6 {
-    color: #936014;
+    color: hsla(47, 100%, 35%, 1);;
     font-weight: 600;
     padding-bottom: 5px;
 }
