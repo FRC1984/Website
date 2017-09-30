@@ -13,9 +13,12 @@
 
 		<div class="l-wrap">
 			<div class="main-grid">
+                
+            <?php include 'sidebar.php';?>
       
-				<div class="grid-item l-4">
+				<div class="grid-item l-6">
 					<div class="grid-inner">
+                        
 						<div class="location">
 							<div class="heading">
 								<h1>We Are Located:</h1>
@@ -26,13 +29,14 @@
 							<p>Room 134 phone number: (###) ###-####</p>
 						</div>
 						
-						<iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=5800+West+107th+Street,+Overland+Park,+KS+66207&amp;aq=&amp;sll=38.937301, -94.652884&amp;sspn=0.00662,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=5800+W+107th+St,+Overland+Park,+Johnson,+Kansas+66207&amp;t=m&amp;z=14&amp;ll=38.937301,-94.652884&amp;output=embed" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe><br>
-					</div>
-				</div>
-                                
-                <div class="grid-item l-4">
-					<div class="grid-inner">
-						<div class="heading">
+						<iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=5800+West+107th+Street,+Overland+Park,+KS+66207&amp;aq=&amp;sll=38.937301, -94.652884&amp;sspn=0.00662,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=5800+W+107th+St,+Overland+Park,+Johnson,+Kansas+66207&amp;t=m&amp;z=14&amp;ll=38.937301,-94.652884&amp;output=embed" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe><br><br>
+                    </div>
+                </div>
+                        
+                <div class="grid-item l-6">
+                    <div class="grid-inner">
+                        
+                        <div class="heading">
 							<h1>Contact Us</h1>
 						</div>
 						
@@ -53,10 +57,9 @@
                             <h2>Mentor</h2>
 							<a href="http://www.google.com/recaptcha/mailhide/d?k=01B7z057zeSa3H1KS9NjT-oA==&amp;c=BS__n6iwiYvO7VGaXQSs8RCD7IVqkGGL1ZwhVHLw7lo=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01B7z057zeSa3H1KS9NjT-oA\x3d\x3d\x26c\x3dBS__n6iwiYvO7VGaXQSs8RCD7IVqkGGL1ZwhVHLw7lo\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">t...@yahoo.com</a>
 						</div>
+
 					</div>
 				</div>
-                                
-                <!--<?php include 'sidebar.php';?>-->
                                 
 			</div>
 		</div>

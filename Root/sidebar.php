@@ -7,7 +7,7 @@
         </div>
         <div class="sponsorlogos">
             <a href="https://www.garmin.com/en-US" target="blank">
-                <img src="http://www.hydra-newmedia.com/wp-content/uploads/2013/03/20_garmin_logo.png" alt="Garmin"></a>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Garmin_logo.svg/1000px-Garmin_logo.svg.png" alt="Garmin"></a>
             <a href="http://www.smsd.org/default.aspx" target="blank">
                 <img src="http://www.smsd.org/assets/images/logos/smsdwhitelogo.png" alt="SMSD"></a>
             <a href="https://www.kcstem.org/" target="blank">

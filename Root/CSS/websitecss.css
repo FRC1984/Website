@@ -2,10 +2,12 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Khula', sans-serif;
-	font-size: 16px; /*12pt*/
-	color: #936014;
+	font-size: 16px;
+	color: #EFDAC7;
 }
-
+p {
+    line-height: 1.8;
+}
 .goldline {
     background-color: #ffc700;
     height: 10px;
@@ -13,6 +15,7 @@
 
 .inlinelink {
     color: #ffc700;
+    font-weight: 600;
 }
 
 .header {
@@ -34,7 +37,7 @@
 .nav ul {
 	list-style-type: none;
 	overflow: hidden;
-	background-color: #1c1c1c;
+	background-color: #63361B;
 }
 
 .nav li {
@@ -45,7 +48,7 @@
 
 .nav li a {
 	display: block;
-	color: #936014;
+	color: #EFDAC7;
 	text-align: center;
 	padding: 12px 4px 1px 4px;
 	margin: 0px 12px 0px 12px;
@@ -67,7 +70,10 @@
 }
 
 body {
-	background-color:#262626;
+	background-color:#262624;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .clear {
@@ -82,32 +88,25 @@ body {
 	display: inline-block;
 	padding: 15px 2%;
 	vertical-align: top;
-	text-align: center;
 }
 
 #team h2 {
 	font-size: 19px;
 	color: #ffc700;
-	text-align: center;
 }
 
 #team h3 {
-	text-align: center;
 	font-size: 15px;
-}
-
-#team p {
-	font-weight: bold;
 }
 
 #team .grid-inner {
 	text-align:center;
 }
-#team .aboutfirst p {
+#aboutfirst .aboutfirst p {
     text-align: left;
     font-weight: 400;
 }
-#team .aboutfirst h4 {
+#aboutfirst .aboutfirst h4 {
     text-align: left;
     color: #ffc700;
     font-weight: 600;
@@ -122,7 +121,7 @@ body {
 }
 #contact .person {
 	display: inline-block;
-	margin: 0px 25px 60px 0px;
+	margin: 0px 50px 30px 50px;
 	line-height: 1.6;
     font-weight: 600;
 }
@@ -142,7 +141,7 @@ body {
 
 #contact iframe {
 	height: 300px;
-	width: 90%;
+	width: 70%;
     max-width: 100%;
 	margin-top: 40px;
 }
@@ -208,8 +207,8 @@ body {
 .equal-grid-inner {
 	display: block;
     float: left;
-	background: #1c1c1c;
-	border: 2px solid #936014;
+	background: #63361B;
+	border: 3px solid #382013;
 	border-radius: 5px;
 	padding: 20px;
     width: 100%; /*added to fix iframe*/
@@ -219,7 +218,7 @@ body {
 	color: #ffc700;
 	font-size: 26px; /*20pt*/
 	text-align: center;
-	background-color: #1c1c1c;
+	background-color: #63361B;
 }
 #sidebar .lastsponsor {
     padding-bottom: 20px;
@@ -228,7 +227,7 @@ body {
 .heading h1 {
 	color: #ffc700;
 	font-size: 26px;
-	background-color: #1c1c1c;
+	background-color: #63361B;
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -245,20 +244,19 @@ body {
 }
 
 .footer {
-	background-color: #1c1c1c;
+	background-color: #63361B;
 	width: 100%;
     padding: 20px;
-    text-align: right;
+    text-align: left;
 }
 
 .footer li a {
-	color: #ffc700;
+	color: #EFDAC7;
 	text-decoration: none;
 	font-size: 14px;
-	font-weight: 400;
 }
 #footer li h6 {
-    color: #936014;
+    color: #ffc700;
     font-weight: 600;
     padding-bottom: 5px;
 }
@@ -282,12 +280,6 @@ body {
 
 html {
 	height: 100%;
-}
-
-body {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
 }
 
 img {
@@ -337,7 +329,7 @@ img {
 
 #robotcamp .prev:hover,
 #robotcamp .next:hover {
-	background-color: black;
+	background-color: #EFDAC7;
 }
 
 #media #row img {
@@ -447,7 +439,7 @@ img {
 
 #media .prev:hover,
 #media .next:hover {
-	background-color: black;
+	background-color: #EFDAC7;
 }
 
 #media #modal-content img {
@@ -468,17 +460,12 @@ img {
 	margin: 0 20px 10px 0;
 }
 
-#media .timeplace {
-	margin: 10px 0;
-	font-weight: 600;
-}
-
-#history .game img {
+#aboutfirst .game img {
     width: 40%;
     display: inline-block;
     float: left;
 }
-#history .game p {
+#aboutfirst .game p {
     width: 60%;
     display: inline-block;
     float: left;
@@ -491,8 +478,8 @@ img {
 }
 #home p {
     text-align: center;
-    font-size: 14px;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 1.8;
     padding: 10px 0 15px 0;
 }
 #home .heading h1 {
@@ -510,7 +497,7 @@ img {
 	text-decoration: none;
 	color: #ffc700;
 	padding: 3px 6px 0px 6px;
-	background-color: #1c1c1c;
+	background-color: #63361B;
 	border-radius: 3px;
 	border: 2px solid #ffc700;
 	font-weight: 600;
@@ -532,7 +519,7 @@ img {
 .link:hover,
 .centerlink:hover {
 	background-color: #ffc700;
-	color: #1c1c1c;
+	color: #63361B;
 }
 .equal-grid-inner {
     position: relative;
@@ -540,7 +527,6 @@ img {
 }
 #team .award {
     width: 100%;
-    vertical-align: text-bottom;
 }
 
 @media only screen and (max-width: 834px) {
@@ -555,6 +541,9 @@ img {
     }
     .main-grid .l-2p6 {
         width: 100%
+    }
+    .main-grid .l-3 {
+        width: 50%
     }
     .main-grid .l-sidebar {
         width: 100%;
@@ -579,7 +568,7 @@ img {
     }
     
     #sidebar .lastsponsor {
-        padding-bottom: 0;
+        padding-bottom: 10;
     }
     
     .navlinks {
@@ -605,6 +594,7 @@ img {
     .main-grid .l-2,
     .main-grid .l-6,
     .main-grid .l-2p6,
+    .main-grid .l-3,
     .main-grid .l-sidebar {
         width: 100%;
     }

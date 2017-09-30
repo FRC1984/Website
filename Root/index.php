@@ -15,8 +15,10 @@
 
         <div class="l-wrap">
 			<div class="main-grid">
+                
+            <?php include 'sidebar.php';?>
 
-                <div class="grid-item l-2p6">
+                <div class="grid-item l-3">
 					<div class="equal-grid-inner">
 						<div class="heading">
                             <h1>Our Team</h1>
@@ -28,7 +30,7 @@
 				</div>
 
                 
-                <div class="grid-item l-2p6">
+                <div class="grid-item l-3">
 					<div class="equal-grid-inner">
 						<div class="heading">
                             <h1>Robot Camp</h1>
@@ -39,18 +41,27 @@
 					</div>
 				</div>
                 
-                <div class="grid-item l-2p6">
+                <div class="grid-item l-3">
 					<div class="equal-grid-inner">
 						<div class="heading">
                             <h1>2017 Robot</h1>
                         </div>
                         <img class="homeimage" src="Media/robot.jpg" alt="2017 Robot">
                         <p>Our 2017 Robot, Chlamydomonas, collects fuel from hoppers or the ground, and scores in the high effieciency goal of the boiler. Chlamydomonas also collects gears from the ground to deliver to the pilots on the airship, before climbing a rope at the end of the match.</p><br><br>
-                        <a href="history.php" class="centerlink">LEARN MORE</a>
+                        <a href="robot.php" class="centerlink">LEARN MORE</a>
 					</div>
 				</div>
                 
-<!--                <?php include 'sidebar.php';?> -->
+                <div class="grid-item l-3">
+					<div class="equal-grid-inner">
+						<div class="heading">
+                            <h1>About FIRST</h1>
+                        </div>
+                        <img class="homeimage" src="Media/robot.jpg" alt="2017 Robot">
+                        <p>FIRST(For the Inspiration of Science and Technology) is an international organization founded in 1989 by Dean Kamen. The mission of FIRST is to inspire young people to be science and technology leaders, and teach them life skills such as self-confidence, communication, and leadership.</p><br><br>
+                        <a href="aboutfirst.php" class="centerlink">LEARN MORE</a>
+					</div>
+				</div>
                 
 			</div>
 		</div>
