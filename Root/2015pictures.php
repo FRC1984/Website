@@ -21,8 +21,8 @@
 						</div>
 						
 							<a href="2017pictures.php" class="year">2017</a>
-							<a href="2016pictures.php" class="year" style="color: #ffc700">2016</a>
-							<a href="2015pictures.php" class="year">2015</a>
+							<a href="2016pictures.php" class="year">2016</a>
+							<a href="2015pictures.php" class="year" style="color: #ffc700">2015</a>
 							<a href="2014pictures.php" class="year">2014</a>
 							<a href="2013pictures.php" class="year">2013</a>
 							<a href="2012pictures.php" class="year">2012</a>
@@ -32,11 +32,11 @@
                                 
 
                             <?php
-                                $files = glob("Media/2016/images/*");
+                                $files = glob("Media/2015/images/*");
                                 for ($i=1; $i<count($files); $i++)
                                     {
                                     $image = $files[$i];
-                                    echo '<div class="container"><img src="'.$image .'" alt="2016 image" onclick="openModal();currentSlide('.$i.')" class="hover-shadow cursor"></div>';
+                                    echo '<div class="container"><img src="'.$image .'" alt="2015 image" onclick="openModal();currentSlide('.$i.')" class="hover-shadow cursor"></div>';
                                     }
                             ?>
 
@@ -50,11 +50,11 @@
 									
                                     
                                     <?php
-                                        $files = glob("Media/2016/images/*");
+                                        $files = glob("Media/2015/images/*");
                                         for ($i=1; $i<count($files); $i++)
                                             {
                                             $image = $files[$i];
-                                            echo '<div class="slides"><img src="'.$image.'" alt="2016 image"></div>';
+                                            echo '<div class="slides"><img src="'.$image.'" alt="2015 image"></div>';
                                             }
                                     ?>
                                     

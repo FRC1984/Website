@@ -37,7 +37,7 @@
                         </div>
                         <img class="homeimage" src="Media/RobotCamp/kid1.jpg" alt="Robot Camp">
                         <p>The day camp combines LEGO building, computer programming, design, team-work, and problem-solving skills in a fun and challenging environment. The day camp is specifically designed for younger students that are interested in exploring robotics using the Lego NXT systems from Lego Education.</p><br><br>
-                        <a href="robotcamp.php" class="centerlink">SIGN UP</a>
+                        <a href="robotcamp.php" class="centerlink">LEARN MORE</a>
 					</div>
 				</div>
                 

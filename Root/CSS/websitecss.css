@@ -329,7 +329,7 @@ img {
 
 #robotcamp .prev:hover,
 #robotcamp .next:hover {
-	background-color: #EFDAC7;
+	background-color: black;
 }
 
 #media #row img {
@@ -439,7 +439,7 @@ img {
 
 #media .prev:hover,
 #media .next:hover {
-	background-color: #EFDAC7;
+	background-color: black;
 }
 
 #media #modal-content img {
