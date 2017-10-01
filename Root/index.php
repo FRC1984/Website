@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<head>
-        <title>Jawas- Team 1984</title>
-        <meta name="description" content="The Jawas, team 1984, is a FIRST robotics team from Overland Park, KS.">
-        <link href="https://fonts.googleapis.com/css?family=Khula:400,600" rel="stylesheet">
-        <link rel="stylesheet" href="CSS/websitecss.css" type="text/css">
-        <meta name="viewport" content="width=device-width">
-        <link rel="shortcut icon" href="Media/favicon.ico" type="image/x-icon">
-        <script src="JS/equalheight.js"></script>
-	</head>
+	<?php include 'head.php';?>
 
 	<body id="home">
         
@@ -25,7 +17,7 @@
                             <h1>Our Team</h1>
                         </div>
                         <img class="homeimage" src="Media/team.jpg" alt="Our Team">
-                        <p>We are the Jawas, FRC team 1984. We are a FIRST Robotics team based out of Overland Park, KS. Formed in 2006, this is our 11th year competing. Our team works hard to spread the message of FIRST in our school, community, and world.</p><br><br>
+                        <p>We are FRC Team 1984, the Jawas. We are from Shawnee Mission South in Overland Park, KS. Formed in 2006, this is our 11th year competing. Our team works hard to spread the message of FIRST in our school, community, and world.</p><br><br>
                         <a href="team.php" class="centerlink">LEARN MORE</a>
 					</div>
 				</div>
