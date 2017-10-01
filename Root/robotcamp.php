@@ -45,7 +45,7 @@
 						- Evaluate results and fix bugs.<br>
 						- Build the critical thinking skills that children need to be successful in any endeavor.<br><br>
 						Registration Information:<br>
-						Date and Time: TBA<br>
+						Date and Time: October 13th, 9-2<br>
 						Location: Shawnee Mission South, Robotics Workshop<br>
 						Canidates for the class: 4th and 5th graders<br>
 						Cost: $50 (checks made out to Shawnee Mission South)<br>
