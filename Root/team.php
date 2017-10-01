@@ -6,6 +6,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Khula:400,600" rel="stylesheet">
         <link rel="stylesheet" href="CSS/websitecss.css" type="text/css">
         <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="Media/favicon.ico" type="image/x-icon">
 	</head>
 
 	<body id="team">
@@ -59,13 +60,15 @@
 						<div class="heading">
 							<h1>Awards and Achievements</h1>
 						</div>
-							<h2 style="color: #EFDAC7">Ozark Mountain Brawl 2016<br>
-                        Second Place</h2>
-                                <img class="award" src="Media/2016image_40.jpg" alt="Second Place"><br><br>
                         
-                        <h2 style="color: #EFDAC7">Ozark Mountain Brawl 2017<br>
+                            <h2 style="color: #EFDAC7">Ozark Mountain Brawl 2017<br>
                         First Place</h2>
+                                <img class="award" src="Media/2017arkansas.jpg" alt="Second Place"><br><br>
+                        
+                        <h2 style="color: #EFDAC7">Ozark Mountain Brawl 2016<br>
+                        Second Place</h2>
                                 <img class="award" src="Media/2016image_40.jpg" alt="Second Place">
+                        
 					</div>
 				</div>
 
