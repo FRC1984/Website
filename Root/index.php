@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-	<?php include 'head.php';?>
+	<head>
+		<?php include 'head.php';?>
+		<script src="JS/equalheight.js"></script>
+	</head>
 
 	<body id="home">
         
