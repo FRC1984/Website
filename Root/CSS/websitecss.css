@@ -151,7 +151,7 @@ body {
 
 #robot .robotpic {
     width: 50%;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 #robot p {
     display: inline-block;
