@@ -60,7 +60,11 @@
 							<h1>Awards and Achievements</h1>
 						</div>
 							<h2 style="color: #EFDAC7">Ozark Mountain Brawl 2016<br>
-                        Second Place</h2><br style="line-height: 2.5">
+                        Second Place</h2>
+                                <img class="award" src="Media/2016image_40.jpg" alt="Second Place"><br><br>
+                        
+                        <h2 style="color: #EFDAC7">Ozark Mountain Brawl 2017<br>
+                        First Place</h2>
                                 <img class="award" src="Media/2016image_40.jpg" alt="Second Place">
 					</div>
 				</div>

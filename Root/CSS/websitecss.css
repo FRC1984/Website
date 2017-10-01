@@ -149,6 +149,16 @@ body {
     text-align: center;
 }
 
+#robot .robotpic {
+    width: 50%;
+    padding-bottom: 20px;
+}
+#robot p {
+    display: inline-block;
+    float: right;
+    width: 48%;
+}
+
 *,
 *::before,
 *::after {
