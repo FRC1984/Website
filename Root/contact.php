@@ -38,8 +38,14 @@
 						</div>
 						
 						<div class="person">
-							<h1>Daniel Plotas</h1>
+							<h1>Leslie Selzer</h1>
 							<h2>Head Coach</h2>
+							<a href="http://www.google.com/recaptcha/mailhide/d?k=01Q-7Z1s_PnkBnB-biUPr66A==&amp;c=2p8svOk7-qFZWx5OcQ_OG6988pP8tqYOVRyu6cDLIr0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01Q-7Z1s_PnkBnB-biUPr66A\x3d\x3d\x26c\x3d2p8svOk7-qFZWx5OcQ_OG6988pP8tqYOVRyu6cDLIr0\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">d...@gmail.com</a>
+						</div>
+                        
+                        <div class="person">
+							<h1>Daniel Plotas</h1>
+							<h2>Coach</h2>
 							<a href="http://www.google.com/recaptcha/mailhide/d?k=01Q-7Z1s_PnkBnB-biUPr66A==&amp;c=2p8svOk7-qFZWx5OcQ_OG6988pP8tqYOVRyu6cDLIr0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01Q-7Z1s_PnkBnB-biUPr66A\x3d\x3d\x26c\x3d2p8svOk7-qFZWx5OcQ_OG6988pP8tqYOVRyu6cDLIr0\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">d...@gmail.com</a>
 						</div>
 						
