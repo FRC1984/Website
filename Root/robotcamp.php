@@ -39,9 +39,19 @@
 						- Learn how to break a complex problem into small manageable parts.<br>
 						- Organize simple tasks to create more complex behaviors.<br>
 						- Evaluate results and fix bugs.<br>
-						- Build the critical thinking skills that children need to be successful in any endeavor.<br><br>
+						- Build the critical thinking skills that children need to be successful in any endeavor.<br>
+                        <br>
+                        Potential future class dates:<br>
+                        - November 20<br>
+                        - December 20<br>
+                        - January 3<br>
+                        - January 16<br>
+                        - February 20<br>
+                        - March 9<br>
+                        - March 30<br>
+                        <br>
 						Registration Information:<br>
-						Date and Time: October 13th, 9-2<br>
+						Date and Time: October 13th, 9-2 CLASS FULL<br>
 						Location: Shawnee Mission South, Robotics Workshop<br>
 						Canidates for the class: 4th and 5th graders<br>
 						Cost: $50 (checks made out to Shawnee Mission South)<br>
