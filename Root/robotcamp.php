@@ -55,7 +55,8 @@
 						Location: Shawnee Mission South, Robotics Workshop<br>
 						Canidates for the class: 4th and 5th graders<br>
 						Cost: $50 (checks made out to Shawnee Mission South)<br>
-						Registration Deadline:<br><br>
+						Registration Deadline:<br>
+                        <br>
 						Please respond to <a href="http://www.google.com/recaptcha/mailhide/d?k=01B7z057zeSa3H1KS9NjT-oA==&amp;c=BS__n6iwiYvO7VGaXQSs8RCD7IVqkGGL1ZwhVHLw7lo=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01B7z057zeSa3H1KS9NjT-oA\x3d\x3d\x26c\x3dBS__n6iwiYvO7VGaXQSs8RCD7IVqkGGL1ZwhVHLw7lo\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">t...@yahoo.com</a> if you would like to register your student.  Please include the following information. <br><br>
 						Student Name:<br>
 						Student School:<br>
