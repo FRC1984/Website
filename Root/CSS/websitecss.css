@@ -73,8 +73,6 @@ p {
 body {
 	background-color:#3a2720;
 	height: 100%;
-	display: flex;
-	flex-direction: column;
 }
 
 .clear {
@@ -168,8 +166,8 @@ body {
 
 .l-wrap {
 	max-width: 4000px;
-    flex: 1 0 auto;
 	padding: 2vw;
+    overflow: auto;
 }
     
 .main-grid .l-6 {
@@ -262,6 +260,8 @@ body {
 	width: 100%;
     padding: 20px;
     text-align: left;
+    height: 150px;
+    float: left;
 }
 
 .footer li a {
@@ -325,7 +325,7 @@ img {
 	cursor: pointer;
 	position: absolute;
 	top: 45%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
 	padding: 6px 13.617px 4px 11.617px;
 	color: white;
     background-color: rgba(0, 0, 0, 0.7);
@@ -460,13 +460,13 @@ img {
 	height: 100%;
 	position: absolute;
 	left: 50%;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
 }
 #media #modal-content video {
 	height: 100%;
 	position: absolute;
 	left: 50%;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
 }
 
 #media .year {
@@ -523,7 +523,7 @@ img {
     left: 50%;
     bottom: 0;
     margin: 20px 0;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
     white-space: nowrap;
 }
 #sidebar .centerlink {
