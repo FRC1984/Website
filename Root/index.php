@@ -54,7 +54,7 @@
                             <h1>About FIRST</h1>
                         </div>
                         <img class="homeimage" src="https://www.cvrobotics.org/wp-content/uploads/2014/05/FIRSTicon_RGB_withTM.png" alt="FIRST">
-                        <p>FIRST(For the Inspiration of Science and Technology) is an international organization founded in 1989 by Dean Kamen. The mission of FIRST is to inspire young people to be science and technology leaders, and teach them life skills such as self-confidence, communication, and leadership.</p><br><br>
+                        <p>FIRST(For the Inspiration and Recgoniton of Science and Technology) is an international organization founded in 1989 by Dean Kamen. The mission of FIRST is to inspire young people to be science and technology leaders, and teach them life skills such as self-confidence, communication, and leadership.</p><br><br>
                         <a href="aboutfirst.php" class="centerlink">LEARN MORE</a>
 					</div>
 				</div>
