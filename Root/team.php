@@ -23,7 +23,7 @@
 							<h1>About Our Team</h1>
 						</div>
 						<p>We are FIRST Robotics Competition Team #1984, the Jawas, from Shawnee Mission South high school in Overland Park, Kansas. <a href="aboutfirst.php" class="inlinelink">Click here</a> to learn more about FIRST. </p><br>
-						<img class="picture" src="Media/team.jpg" alt="Team">
+						<img class="picture" src="Media/team.png" alt="Team">
 
                         <div class="members">
 							<h2>Freshmen</h2>
@@ -59,13 +59,18 @@
 						<div class="heading">
 							<h1>Awards and Achievements</h1>
 						</div>
+                        
 							<h2 style="color: #EFDAC7">Ozark Mountain Brawl 2016<br>
                         Second Place</h2>
                                 <img class="award" src="Media/2016image_40.jpg" alt="Second Place"><br><br>
                         
                         <h2 style="color: #EFDAC7">Ozark Mountain Brawl 2017<br>
                         First Place</h2>
-                                <img class="award" src="Media/2016image_40.jpg" alt="Second Place">
+                                <img class="award" src="Media/arkansaswin.jpg" alt="Second Place"><br><br>
+                        
+                        <h2 style="color: #EFDAC7">Kansas Cup 2017<br>
+                        First Place</h2>
+                                <img class="award" src="Media/kcupwin.jpg" alt="Third Place">
 					</div>
 				</div>
 

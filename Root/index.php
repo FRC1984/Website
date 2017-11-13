@@ -23,7 +23,7 @@
 						<div class="heading">
                             <h1>Our Team</h1>
                         </div>
-                        <img class="homeimage" src="Media/team.jpg" alt="Our Team">
+                        <img class="homeimage" src="Media/team.png" alt="Our Team">
                         <p>We are the Jawas, FRC team 1984. We are a FIRST Robotics team based out of Overland Park, KS. Formed in 2006, this is our 11th year competing. Our team works hard to spread the message of FIRST in our school, community, and world.</p><br><br>
                         <a href="team.php" class="centerlink">LEARN MORE</a>
 					</div>

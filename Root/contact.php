@@ -26,7 +26,7 @@
 							
 							<h2>Shawnee Mission South high school</h2>
 							<h3>5800 W 107th St, Overland Park, KS<br>Room 134 (or through the garage in the back parking lot)</h3>
-							<p>Room 134 phone number: (###) ###-####</p>
+							<p>Room 134 phone number: (913) 993-7625</p>
 						</div>
 						
 						<iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=5800+West+107th+Street,+Overland+Park,+KS+66207&amp;aq=&amp;sll=38.937301, -94.652884&amp;sspn=0.00662,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=5800+W+107th+St,+Overland+Park,+Johnson,+Kansas+66207&amp;t=m&amp;z=14&amp;ll=38.937301,-94.652884&amp;output=embed" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe><br><br>
