@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
-        <title>Jawas- Team 1984</title>
-        <link href="https://fonts.googleapis.com/css?family=Khula:400,600" rel="stylesheet">
-        <link rel="stylesheet" href="CSS/websitecss.css" type="text/css">
-        <meta name="viewport" content="width=device-width">
+		<?php include 'head.php';?>
 	</head>
 
 	<body id="robotcamp">
@@ -43,13 +39,23 @@
 						- Learn how to break a complex problem into small manageable parts.<br>
 						- Organize simple tasks to create more complex behaviors.<br>
 						- Evaluate results and fix bugs.<br>
-						- Build the critical thinking skills that children need to be successful in any endeavor.<br><br>
+						- Build the critical thinking skills that children need to be successful in any endeavor.<br>
+                        <br>
+                        Potential future class dates:<br>
+                        - November 20<br>
+                        - December 20<br>
+                        - January 3<br>
+                        - January 16<br>
+                        - February 20<br>
+                        - March 9<br>
+                        - March 30<br>
+                        <br>
 						Registration Information:<br>
-						Date and Time: October 13th, 9-2<br>
+						Date and Time: November 20th, 9-2<br>
 						Location: Shawnee Mission South, Robotics Workshop<br>
 						Canidates for the class: 4th and 5th graders<br>
 						Cost: $50 (checks made out to Shawnee Mission South)<br>
-						Registration Deadline:<br><br>
+                        <br>
 						Please respond to <a href="http://www.google.com/recaptcha/mailhide/d?k=01B7z057zeSa3H1KS9NjT-oA==&amp;c=BS__n6iwiYvO7VGaXQSs8RCD7IVqkGGL1ZwhVHLw7lo=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01B7z057zeSa3H1KS9NjT-oA\x3d\x3d\x26c\x3dBS__n6iwiYvO7VGaXQSs8RCD7IVqkGGL1ZwhVHLw7lo\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">t...@yahoo.com</a> if you would like to register your student.  Please include the following information. <br><br>
 						Student Name:<br>
 						Student School:<br>

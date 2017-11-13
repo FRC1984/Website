@@ -6,6 +6,7 @@
         <link href="https://fonts.googleapis.com/css?family=Khula:400,600" rel="stylesheet">
         <link rel="stylesheet" href="CSS/websitecss.css" type="text/css">
         <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="Media/favicon.ico" type="image/x-icon">
 	</head>
 
 	<body id="aboutfirst">

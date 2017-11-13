@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-        <title>Jawas- Team 1984</title>
-        <meta name="description" content="The Jawas, team 1984, is a FIRST robotics team from Overland Park, KS.">
-        <link href="https://fonts.googleapis.com/css?family=Khula:400,600" rel="stylesheet">
-        <link rel="stylesheet" href="CSS/websitecss.css" type="text/css">
-        <meta name="viewport" content="width=device-width">
-        <script src="JS/equalheight.js"></script>
+		<?php include 'head.php';?>
+		<script src="JS/equalheight.js"></script>
 	</head>
 
 	<body id="home">
@@ -58,7 +54,7 @@
                             <h1>About FIRST</h1>
                         </div>
                         <img class="homeimage" src="https://www.cvrobotics.org/wp-content/uploads/2014/05/FIRSTicon_RGB_withTM.png" alt="FIRST">
-                        <p>FIRST(For the Inspiration of Science and Technology) is an international organization founded in 1989 by Dean Kamen. The mission of FIRST is to inspire young people to be science and technology leaders, and teach them life skills such as self-confidence, communication, and leadership.</p><br><br>
+                        <p>FIRST(For the Inspiration and Recgoniton of Science and Technology) is an international organization founded in 1989 by Dean Kamen. The mission of FIRST is to inspire young people to be science and technology leaders, and teach them life skills such as self-confidence, communication, and leadership.</p><br><br>
                         <a href="aboutfirst.php" class="centerlink">LEARN MORE</a>
 					</div>
 				</div>
