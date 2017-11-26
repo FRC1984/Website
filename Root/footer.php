@@ -8,7 +8,7 @@
         <li><a href="contact.php"Contact Us</a></li>
         <li><a href="robot.php">2017 Robot</a></li>
         <li><a href="schedule.php">Schedule</a></li>
-        <li><a href="2016pictures.php">Media</a></li>
+        <li><a href="https://drive.google.com/open?id=0BykwGzOiMu2Db0tGQ1pkcmNWdm8">Media</a></li>
     </ul>
     <ul>
         <li><h6>How To...</h6></li>

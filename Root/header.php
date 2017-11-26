@@ -11,7 +11,7 @@
             <div class="navlinks">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="team.php">About</a></li>
-                <li><a href="2016pictures.php">Media</a></li>
+                <li><a href="https://drive.google.com/open?id=0BykwGzOiMu2Db0tGQ1pkcmNWdm8">Media</a></li>
                 <li><a href="schedule.php">Schedule</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </div>
