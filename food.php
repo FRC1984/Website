@@ -2,10 +2,8 @@
 <html>
 	<head>
 		
-        <title>Jawas- Team 1984</title>
-        <link href="https://fonts.googleapis.com/css?family=Khula:400,600" rel="stylesheet">
-        <link rel="stylesheet" href="CSS/websitecss.css" type="text/css">
-        <meta name="viewport" content="width=device-width">
+        <head>
+		<?php include 'head.php';?>
 	</head>
 
 	<body id="parents">
@@ -21,7 +19,7 @@
 							<h1>Sign Up For Food</h1>
 						</div>
 							<p>Throughout build season, we need parent voluteers to bring food on late nights and Saturdays. Thank you for all of your help!</p><br>
-							<a href="https://www.signupgenius.com/go/409044aaaaf2ea6fd0-food" target="blank" class="link">SIGN UP</a>
+							<a href="http://www.signupgenius.com/go/409044aaaaf2ea6fd0-food" target="blank" class="link">SIGN UP</a>
 					</div>
 				</div>
                 

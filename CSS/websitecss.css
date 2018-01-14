@@ -2,17 +2,21 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Khula', sans-serif;
-	font-size: 16px; /*12pt*/
-	color: #efebe9;
+	font-size: 16px;
+	color: #EFDAC7;
 }
-
+p {
+    line-height: 1.8;
+}
 .goldline {
-	background-color: #ffeb3b;
-	height: 10px;
+    background-color: #ffc700;
+    background-image: url("https://i.imgur.com/58ZKw07.png");
+    height: 10px;
 }
 
 .inlinelink {
-	color: #ffeb3b;
+    color: #ffc700;
+    font-weight: 600;
 }
 
 .header {
@@ -22,41 +26,43 @@
 .logo {
 	height: 120px;
 	float: left;
-	padding: 5px 0;
+    padding: 5px 0;
 }
 
 .first {
 	width: 110px;
-	padding: 10px 0;
+    padding: 10px 0;
 	float: right;
-	margin-right: 30px;
+    margin-right: 30px;
 }
 .nav ul {
 	list-style-type: none;
 	overflow: hidden;
-	background-color: #3a2720;
+	background-color: #6d3415;
 }
 
 .nav li {
 	float: left;
 	font-size: 19px;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .nav li a {
 	display: block;
+	color: #EFDAC7;
 	text-align: center;
 	padding: 12px 4px 1px 4px;
 	margin: 0px 12px 0px 12px;
 	text-decoration: none;
 	position: relative;
 	font-size: 19px;
-	border-bottom: 3px solid transparent;
-	line-height: 1;
+    border-bottom: 3px solid transparent;
+    line-height: 1;
 }
 
 .nav li a:hover {
-	border-bottom: 3px solid;
+	color: #ffc700;
+	border-bottom: 3px solid #ffc700;
 }
 
 .nav li {
@@ -65,7 +71,8 @@
 }
 
 body {
-	background-color: #3a2720;
+	background-color:#3a2720;
+	height: 100%;
 }
 
 .clear {
@@ -80,34 +87,27 @@ body {
 	display: inline-block;
 	padding: 15px 2%;
 	vertical-align: top;
-	text-align: center;
 }
 
 #team h2 {
 	font-size: 19px;
-	color: #ffeb3b;
-	text-align: center;
+	color: #ffc700;
 }
 
 #team h3 {
-	text-align: center;
 	font-size: 15px;
 }
 
-#team p {
-	font-weight: bold;
-}
-
 #team .grid-inner {
-	text-align: center;
+	text-align:center;
 }
-#team .aboutfirst p {
+#aboutfirst .aboutfirst p {
     text-align: left;
     font-weight: 400;
 }
-#team .aboutfirst h4 {
+#aboutfirst .aboutfirst h4 {
     text-align: left;
-    color: #ffeb3b;
+    color: #ffc700;
     font-weight: 600;
     line-height: 40px;
     font-size: 19px;
@@ -120,7 +120,7 @@ body {
 }
 #contact .person {
 	display: inline-block;
-	margin: 0px 25px 60px 0px;
+	margin: 0px 50px 30px 50px;
 	line-height: 1.6;
     font-weight: 600;
 }
@@ -140,12 +140,22 @@ body {
 
 #contact iframe {
 	height: 300px;
-	width: 90%;
+	width: 70%;
     max-width: 100%;
 	margin-top: 40px;
 }
 #contact .grid-inner {
     text-align: center;
+}
+
+#robot .robotpic {
+    width: 50%;
+    margin-bottom: 20px;
+}
+#robot p {
+    display: inline-block;
+    float: right;
+    width: 48%;
 }
 
 *,
@@ -156,8 +166,8 @@ body {
 
 .l-wrap {
 	max-width: 4000px;
-    flex: 1 0 auto;
 	padding: 2vw;
+    overflow: auto;
 }
     
 .main-grid .l-6 {
@@ -206,24 +216,30 @@ body {
 .equal-grid-inner {
 	display: block;
     float: left;
-	background: #594033;
+	background: #6d3415;
+	border: 3px solid #382013;
+	border-radius: 5px;
 	padding: 20px;
     width: 100%; /*added to fix iframe*/
 }
+#sidebar .art {
+    color: white;
+}
 
 .sidebarheading h1 {
-	color: #ffeb3b;
+	color: #ffc700;
 	font-size: 26px; /*20pt*/
 	text-align: center;
-	background-color: #594033;
+	background-color: #6d3415;
 }
 #sidebar .lastsponsor {
     padding-bottom: 20px;
 }
 
 .heading h1 {
+	color: #ffc700;
 	font-size: 26px;
-	background-color: #594033;
+	background-color: #6d3415;
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -240,26 +256,27 @@ body {
 }
 
 .footer {
-	background-color: #3e2723;
+	background-color: #6d3415;
 	width: 100%;
     padding: 20px;
-    text-align: right;
+    text-align: left;
+    height: 150px;
+    float: left;
 }
 
 .footer li a {
-	color: #ffeb3b;
+	color: #EFDAC7;
 	text-decoration: none;
 	font-size: 14px;
-	font-weight: 400;
 }
 #footer li h6 {
-    color: #936014;
+    color: #ffc700;
     font-weight: 600;
     padding-bottom: 5px;
 }
 
 .footer li a:hover {
-	color: #ffeb3b;
+	color: #ffc700;
 }
 
 .footer li {
@@ -277,12 +294,6 @@ body {
 
 html {
 	height: 100%;
-}
-
-body {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
 }
 
 img {
@@ -314,7 +325,7 @@ img {
 	cursor: pointer;
 	position: absolute;
 	top: 45%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
 	padding: 6px 13.617px 4px 11.617px;
 	color: white;
     background-color: rgba(0, 0, 0, 0.7);
@@ -449,13 +460,13 @@ img {
 	height: 100%;
 	position: absolute;
 	left: 50%;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
 }
 #media #modal-content video {
 	height: 100%;
 	position: absolute;
 	left: 50%;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
 }
 
 #media .year {
@@ -463,17 +474,12 @@ img {
 	margin: 0 20px 10px 0;
 }
 
-#media .timeplace {
-	margin: 10px 0;
-	font-weight: 600;
-}
-
-#history .game img {
+#aboutfirst .game img {
     width: 40%;
     display: inline-block;
     float: left;
 }
-#history .game p {
+#aboutfirst .game p {
     width: 60%;
     display: inline-block;
     float: left;
@@ -486,8 +492,8 @@ img {
 }
 #home p {
     text-align: center;
-    font-size: 14px;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 1.8;
     padding: 10px 0 15px 0;
 }
 #home .heading h1 {
@@ -503,8 +509,11 @@ img {
 .link,
 .centerlink {
 	text-decoration: none;
+	color: #ffc700;
 	padding: 3px 6px 0px 6px;
-	background-color: #3a2720;
+	background-color: #6d3415;
+	border-radius: 3px;
+	border: 2px solid #ffc700;
 	font-weight: 600;
     display: inline-block;
     text-align: center;
@@ -514,7 +523,7 @@ img {
     left: 50%;
     bottom: 0;
     margin: 20px 0;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
     white-space: nowrap;
 }
 #sidebar .centerlink {
@@ -523,8 +532,8 @@ img {
 
 .link:hover,
 .centerlink:hover {
-	background-color: #ffeb3b;
-	color: #3a2720;
+	background-color: #ffc700;
+	color: #6d3415;
 }
 .equal-grid-inner {
     position: relative;
@@ -532,7 +541,6 @@ img {
 }
 #team .award {
     width: 100%;
-    vertical-align: text-bottom;
 }
 
 @media only screen and (max-width: 834px) {
@@ -547,6 +555,9 @@ img {
     }
     .main-grid .l-2p6 {
         width: 100%
+    }
+    .main-grid .l-3 {
+        width: 50%
     }
     .main-grid .l-sidebar {
         width: 100%;
@@ -571,7 +582,7 @@ img {
     }
     
     #sidebar .lastsponsor {
-        padding-bottom: 0;
+        padding-bottom: 10;
     }
     
     .navlinks {
@@ -597,6 +608,7 @@ img {
     .main-grid .l-2,
     .main-grid .l-6,
     .main-grid .l-2p6,
+    .main-grid .l-3,
     .main-grid .l-sidebar {
         width: 100%;
     }

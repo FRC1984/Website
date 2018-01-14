@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
-        <title>Jawas- Team 1984</title>
-        <link href="https://fonts.googleapis.com/css?family=Khula:400,600" rel="stylesheet">
-        <link rel="stylesheet" href="CSS/websitecss.css" type="text/css">
-        <meta name="viewport" content="width=device-width">
-        <script src="JS/equalheight.js"></script>
+		<?php include 'head.php';?>
+	        <script src="JS/equalheight.js"></script>
 	</head>
 
 	<body id="sponsorus">
@@ -39,11 +35,11 @@
 						<div class="heading">
 							<h1>Join Our Team</h1>
 						</div>
-                        <p>If you would like to join our team, please <a href="contact.php" class="inlinelink">contact us</a> and let us know. New members are always welcome, and everyone is encouraged to join. We meet after school on Tuesdays and Fridays, and everyday during build season. Our subteams consist of building, programming, design, electrical, CAD, and web developement, so there is a place for everyone!</p>
+                        <p>If you would like to join our team, please <a href="contact.php" class="inlinelink">contact us</a> and let us know. New members are always welcome, and everyone is encouraged to join! We meet after school on Tuesdays and Fridays, and everyday during build season. Our subteams consist of building, programming, design, electrical, CAD, and web developement, so there is a place for everyone!</p>
 					</div>
 				</div>
                 
-                <!-- <?php include 'sidebar.php';?> -->
+                <?php include 'sidebar.php';?>
                 
 			</div>
 		</div>
