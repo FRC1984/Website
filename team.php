@@ -23,7 +23,7 @@
 
                         <div class="members">
 							<h2>Freshmen</h2>
-							<h3>William Foss<br>Blake Helton<br>Lindsey Chiu<br>Lauren Crain<br>Oscar Flassig<br>Owen Krussow<br>Andrew Price<br>Pierce Lane<br>Elijah Brando</h3>
+							<h3>Blake Helton<br>Lindsey Chiu<br>Lauren Crain<br>Oscar Flassig<br>Owen Krussow<br>Andrew Price<br>Pierce Lane</h3>
 						</div>
 						
 						<div class="members">
@@ -38,12 +38,12 @@
 						
 						<div class="members">
 							<h2>Seniors</h2>
-							<h3>Bennett Vavak<br>Aidan Smith<br>Madeline Bermond<br>Sam Waris<br>Peter Sears<br>Nick McKee-rist<br>Andrew Bauer<br>Abbie Rieber<br>Adrian Blomquist</h3>
+							<h3>Bennett Vavak<br>Aidan Smith<br>Madeline Bermond<br>Sam Waris<br>Peter Sears<br>Nick McKee-rist<br>Andrew Bauer</h3>
 						</div>
 						
 						<div class="members">
 							<h2>Coaches and Mentors</h2>
-							<h3>Daniel Plotas<br>Paul Plotas<br>Ted Smith<br>Isaiah Burger<br>Jared Roehrich</h3>
+							<h3>Daniel Plotas<br>Paul Plotas<br>Ted Smith<br>Isaiah Burger<br>Jared Roehrich<br>Joe Verdeber</h3>
 						</div>
 					</div>
 				</div> 
