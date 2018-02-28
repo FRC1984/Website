@@ -23,7 +23,7 @@
 
                         <div class="members">
 							<h2>Freshmen</h2>
-							<h3>Blake Helton<br>Lindsey Chiu<br>Lauren Crain<br>Oscar Flassig<br>Owen Krussow<br>Andrew Price<br>Pierce Lane</h3>
+							<h3>Blake Helton<br>Lindsey Chiu<br>Oscar Flassig<br>Andrew Price<br>Owen Krussow<br>Lauren Crain<br>Pierce Lane</h3>
 						</div>
 						
 						<div class="members">
@@ -38,7 +38,7 @@
 						
 						<div class="members">
 							<h2>Seniors</h2>
-							<h3>Bennett Vavak<br>Aidan Smith<br>Madeline Bermond<br>Sam Waris<br>Peter Sears<br>Nick McKee-rist<br>Andrew Bauer</h3>
+							<h3>Bennett Vavak<br>Madeline Bermond<br>Nick McKee-rist<br>Sam Waris<br>Andrew Bauer<br>Peter Sears<br>Aidan Smith</h3>
 						</div>
 						
 						<div class="members">
