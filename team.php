@@ -43,7 +43,7 @@
 						
 						<div class="members">
 							<h2>Coaches and Mentors</h2>
-							<h3>Daniel Plotas<br>Paul Plotas<br>Ted Smith<br>Isaiah Burger<br>Jared Roehrich<br>Joe Verdeber</h3>
+							<h3>Daniel Plotas<br>Paul Plotas<br>Ted Smith<br>Isaiah Burger<br>Jared Roehrich<br>Joe Verderber</h3>
 						</div>
 					</div>
 				</div> 
